@@ -1,16 +1,15 @@
-title: Your awesome title
+title: 悟文佛經學習
 author:
-  name: GitHub User
-  email: your-email@domain.com
+  name: 悟文
+  email: yuwen.song@outlook.com
 
 # The `>` after `description:` means to ignore line-breaks until next key.
 # If you want to omit the line-break after the end of text, use `>-` instead.
 description: >
-  Write an awesome description for your new site here. You can edit this line
-  in _config.yml. It will appear in your document head meta (for Google search
-  results) and in your feed.xml site description.
+  普光佛、普明佛、普靜佛、多摩羅、跋栴檀香佛、栴檀光佛、摩尼幢佛、歡喜藏摩尼寶積佛、一切世間樂見上大精進佛、摩尼幢燈光佛、慧炬照佛、海德明光佛、金剛牢疆普散金光佛、大彊精進勇猛佛、大悲光佛、慈力王佛、慈藏佛、栴檀窟莊嚴勝佛、賢善首佛、善意佛、廣莊嚴佛、金華光佛、寶蓋照空自在王佛、虛空寶華光佛、琉璃莊嚴王佛、普現色身光佛、不動智光佛、降伏諸魔王佛、才光明佛、智慧勝佛、彌勒仙光佛、世靜光佛、善寂月音妙尊智王佛、龍種上尊王佛、日月光佛、日月珠光佛、慧幡勝王佛、師子吼自在力王佛、妙音勝佛、常光幢佛、觀世燈佛、慧威燈王佛、法勝王佛、須彌光佛、須蔓那華光佛、優曇鉢羅華殊勝王佛、大慧力王佛、阿閦毘歡喜光佛、無量音聲王佛、才光佛、金海光佛、山海慧自在通王佛、大通光佛、一切法常滿王佛，毘婆尸佛、尸棄佛、毘舍佉佛、拘留孫佛、拘那含牟尼佛、迦葉佛、釋迦牟尼佛，阿彌陀佛、藥師琉璃佛，妙音菩薩、文殊師利菩薩、藥王菩薩、勇施菩薩、宿王華菩薩、上行意菩薩、莊嚴王菩薩、藥上菩薩、得勤精進力菩薩、觀世音菩薩、無盡意菩薩、持地菩薩、莊嚴相菩薩、普賢菩薩，金剛藏菩薩、地藏菩薩、彌勒菩薩。
 
 # Build settings
+permalink: /:title:output_ext
 
 # If you clone the Minima repo and build locally, use this setting.
 theme: minima
@@ -28,11 +27,11 @@ plugins:
 
 # If you want to link only specific pages in your header, use this and add the path to the pages
 # in order as they should show up.
-header_pages:
-  - about.md
+# header_pages:
+#   - about.md
 
 # Set to `true` to show excerpts on the homepage.
-#show_excerpts: false
+show_excerpts: false
 
 # Minima specific settings, which are only available from Minima 3.0 onward.
 minima:
@@ -49,7 +48,7 @@ minima:
   # Minima date format.
   # The default value is "%b %d, %Y" (e.g. Nov 14, 2023) 
   # Refer to https://shopify.github.io/liquid/filters/date/ if you want to customize this.
-  #date_format: "%b-%d-%Y"
+  date_format: "%Y/%m/%d"
 
   # Generate social links in footer.
   #social_links:
@@ -70,5 +69,3 @@ minima:
   #  - { platform: twitter,        user_url: "https://twitter.com/jekyllrb" }
   #  - { platform: x,              user_url: "https://x.com/jekyllrb" }
   #  - { platform: youtube,        user_url: "https://www.youtube.com/jekyll" }
-
-

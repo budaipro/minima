@@ -18,6 +18,7 @@ layout: base
 
 
   {%- if posts.size > 0 -%}
+
     {%- if page.list_title -%}
       <h2 class="post-list-heading">{{ page.list_title }}</h2>
     {%- endif -%}
@@ -25,12 +26,14 @@ layout: base
       {%- assign date_format = site.minima.date_format | default: "%b %-d, %Y" -%}
       {%- for post in posts -%}
       <li>
-        <span class="post-meta">{{ post.date | date: date_format }}</span>
-        <h3>
-          <a class="post-link" href="{{ post.url | relative_url }}">
-            {{ post.title | escape }}
-          </a>
-        </h3>
+        <div>
+	  <a class="post-link" href="{{ post.url | relative_url }}">
+	    {{ post.title | escape }}
+	  </a>
+	  <span class="post-meta hidden">
+	    <i>{{ post.date | date: date_format }}</i>
+	  </span>
+        </div>
         {%- if site.show_excerpts -%}
           {{ post.excerpt }}
         {%- endif -%}
@@ -56,6 +59,6 @@ layout: base
       </div>
     {%- endif %}
 
-  {%- endif -%}
+  {%- endif %}
 
 </div>
