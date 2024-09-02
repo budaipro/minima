@@ -8,14 +8,14 @@
 
 body {
   color: black;
-  font: 400 16px/1.25 simsun, simhei, -apple-system, system-ui, BlinkMacSystemFont, Helvetica, Arial, sans-serif;
+  font: 400 16px/1.25 "宋体", "標楷體", "細明體", "新細明體", "新細明體-ExtB", -apple-system, system-ui, BlinkMacSystemFont, Helvetica, Arial, sans-serif;
 }
 
 a {
   color: blue;
-  text-decoration: underline;
   &:hover, &:focus, &:visited {
     color: blue;
+	text-decoration: none;
   }
 }
 
@@ -99,11 +99,14 @@ h1, h2, h3, h4, h5, h6, p, blockquote, pre, ul, ol, dl, figure, .highlight {
 }
 
 .post-list {
-  list-style: inherit;
+  list-style: disc inside url(https://www.w3schools.com/css/sqpurple.gif);
   margin-left: 1em;
-  > li, h3 {
+  > li {
     margin-bottom: 0;
 	line-height: 1.25;
+	&:hover {
+	  // background-color: #eee;
+	}
   }
 }
 
@@ -116,8 +119,8 @@ h1, h2, h3, h4, h5, h6, p, blockquote, pre, ul, ol, dl, figure, .highlight {
 }
 
 .post-link {
-  font-size: 20px;
-  font-family: kaiti, simsun, simhei, -apple-system, system-ui, BlinkMacSystemFont, Helvetica, Arial, sans-serif
+  font-size: 18px;
+  font-family: "楷体", "宋体", "標楷體", "細明體", "新細明體", "新細明體-ExtB", -apple-system, system-ui, BlinkMacSystemFont, Helvetica, Arial, sans-serif;
 }
 
 .post-header {

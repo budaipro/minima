@@ -3,6 +3,9 @@ layout: base
 ---
 
 <div class="home">
+   
+   <img style="max-width: 240px; margin-bottom: 20px;" src="https://img-shoplineapp-com.s3.amazonaws.com/media/image_clips/5b4f04e572fdc07c8100013a/large.jpg?1531905252" alt="彌勒佛">
+
   {%- if page.title -%}
     <h1 class="page-heading">{{ page.title }}</h1>
   {%- endif -%}
@@ -26,14 +29,14 @@ layout: base
       {%- assign date_format = site.minima.date_format | default: "%b %-d, %Y" -%}
       {%- for post in posts -%}
       <li>
-        <div>
-	  <a class="post-link" href="{{ post.url | relative_url }}">
-	    {{ post.title | escape }}
-	  </a>
-	  <span class="post-meta hidden">
-	    <i>{{ post.date | date: date_format }}</i>
-	  </span>
-        </div>
+        <span>
+	      <a class="post-link" href="{{ post.url | relative_url }}">
+	        {{ post.title | escape }}
+	      </a>
+	      <span class="post-meta hidden">
+	        <i>{{ post.date | date: date_format }}</i>
+	      </span>
+        </span>
         {%- if site.show_excerpts -%}
           {{ post.excerpt }}
         {%- endif -%}
