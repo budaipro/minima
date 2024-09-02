@@ -8,7 +8,7 @@
 
 body {
   color: black;
-  font: 400 13.275pt/1.25 simsun, simhei, -apple-system, system-ui, BlinkMacSystemFont, Helvetica, Arial, sans-serif;
+  font: 400 16px/1.25 simsun, simhei, -apple-system, system-ui, BlinkMacSystemFont, Helvetica, Arial, sans-serif;
 }
 
 a {
@@ -23,47 +23,58 @@ h1, h2, h3, h4, h5, h6 {
   font-weight: bold;
 }
 
+h1, h2, h3, h4, h5, h6, p, blockquote, pre, ul, ol, dl, figure, .highlight {
+  margin-bottom: 25px;
+}
+
 .hidden {
   display: none;
 }
 
 .wrapper {
-  max-width: 550px;
-  margin-left: 0;
-  margin-right: 0;
+  max-width: 650px;
   padding-left: 15px;
   padding-right: 15px;
+  margin-left: 0;
+  margin-right: 0;
 }
 
 .page-content .wrapper {
-  max-width: 550px;
+  max-width: 650px;
 }
 
 @media screen and (min-width: 800px) {
   .wrapper {
-    max-width: 550px;
+    max-width: 650px;
     padding-left: 15px;
     padding-right: 15px;
   }
 
   .page-content .wrapper {
-    max-width: 550px;
+    max-width: 650px;
   }
 }
 
 .site-header {
   line-height: 1.25;
+  width: 100%;
   min-height: auto;
   padding: 10px 0;
   border-top-width: 0;
-  border-bottom: 1px solid #999;
-  background-color: darkkhaki;
+  border-bottom: 1px solid #99bbe8;
+  background-color: aliceblue;
+  box-shadow: 1px 1px 0 #e9e9e9;
+  position: fixed;
+  top: 0;
+  left: 0;
 }
 
 .site-title {
   color: blue;
   font-weight: bold;
-  font-size: 13.275pt;
+  font-size: 18px;
+  letter-spacing: 4px;
+  text-decoration: none!important;
   float: none;
   &:visited {
     color: blue;
@@ -78,8 +89,13 @@ h1, h2, h3, h4, h5, h6 {
   }
 }
 
+.page-content {
+  margin-top: 43px;
+  margin-bottom: 26px;
+}
+
 .post-list-heading {
-  font-size: 16pt;
+  font-size: 18px;
 }
 
 .post-list {
@@ -94,14 +110,36 @@ h1, h2, h3, h4, h5, h6 {
 .post-link, .post-title, .post-content h1 {
   display: inline;
   vertical-align: top;
-  font-size: 13.275pt;
-  letter-spacing: 0;
+  font-size: 26px;
+  letter-spacing: 4px;
   line-height: 1.25;
 }
 
+.post-link {
+  font-size: 20px;
+  font-family: kaiti, simsun, simhei, -apple-system, system-ui, BlinkMacSystemFont, Helvetica, Arial, sans-serif
+}
+
+.post-header {
+  font-size: 26px;
+  margin-bottom: 35px;
+}
+
+.post-content {
+  font-size: 22px;
+  
+  .translator {
+    letter-spacing: 4px;
+  }
+}
+
 .site-footer {
-  font-size: 11pt;
+  font-size: 14px;
   padding: 6px 0 4px;
+  width: 100%;
   border-top: 1px solid #ccc;
   background-color: aliceblue;
+  position: fixed;
+  bottom: 0;
+  left: 0;
 }
