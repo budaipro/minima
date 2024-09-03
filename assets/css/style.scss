@@ -6,6 +6,10 @@
   "minima/skins/{{ site.minima.skin | default: 'classic' }}",
   "minima/initialize";
 
+html, body {
+  overscroll-behavior: none;
+}
+
 body {
   color: black;
   font: 400 16px/1.25 "宋体", "標楷體", "細明體", "新細明體", "新細明體-ExtB", -apple-system, system-ui, BlinkMacSystemFont, Helvetica, Arial, sans-serif;
@@ -25,6 +29,17 @@ h1, h2, h3, h4, h5, h6 {
 
 h1, h2, h3, h4, h5, h6, p, blockquote, pre, ul, ol, dl, figure, .highlight {
   margin-bottom: 25px;
+}
+
+dfn, abbr {
+  cursor: help;
+  font-style: italic;
+  // text-decoration: underline dotted /*1px*/;
+  border-bottom: 2px dotted;
+}
+
+rt {
+  font-family: Helvetica, Arial, sans-serif;
 }
 
 .hidden {
@@ -71,8 +86,8 @@ h1, h2, h3, h4, h5, h6, p, blockquote, pre, ul, ol, dl, figure, .highlight {
 
 .site-title {
   color: blue;
-  font-weight: bold;
   font-size: 18px;
+  font-weight: bold;
   letter-spacing: 4px;
   text-decoration: none!important;
   float: none;
@@ -120,7 +135,7 @@ h1, h2, h3, h4, h5, h6, p, blockquote, pre, ul, ol, dl, figure, .highlight {
 
 .post-link {
   font-size: 18px;
-  font-family: "楷体", "宋体", "標楷體", "細明體", "新細明體", "新細明體-ExtB", -apple-system, system-ui, BlinkMacSystemFont, Helvetica, Arial, sans-serif;
+  font-family: "標楷體", "細明體", "新細明體", "新細明體-ExtB", cursive, "楷体", "宋体", -apple-system, system-ui, BlinkMacSystemFont, Helvetica, Arial, sans-serif;
 }
 
 .post-header {
