@@ -42,6 +42,10 @@ rt {
   font-family: Helvetica, Arial, sans-serif;
 }
 
+sub, sup {
+  font-size: 16px;
+}
+
 .hidden {
   display: none;
 }
@@ -143,6 +147,10 @@ rt {
 .post-header {
   font-size: 26px;
   margin-bottom: 35px;
+}
+
+.post-subtitle {
+  font-size: 24px;
 }
 
 .post-content {
