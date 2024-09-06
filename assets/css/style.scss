@@ -13,6 +13,7 @@ html, body {
 body {
   color: black;
   font: 400 16px/1.275 "宋体", "標楷體", "細明體", "新細明體", "新細明體-ExtB", -apple-system, system-ui, BlinkMacSystemFont, Helvetica, Arial, sans-serif;
+  background-color: white;
 }
 
 a {
@@ -41,7 +42,7 @@ dfn, abbr {
 
 rt {
   font-family: Helvetica, Arial, sans-serif;
-  font-size: 14px;
+  font-size: 12px;
 }
 
 sub, sup {
@@ -53,13 +54,13 @@ sub, sup {
 }
 
 .wrapper {
-  max-width: 650px;
+  max-width: 600px;
   padding: 0 10px;
   margin: 0;
 }
 
 .page-content .wrapper {
-  max-width: 650px;
+  max-width: 600px;
 }
 
 .buddha {
@@ -69,12 +70,12 @@ sub, sup {
 
 @media screen and (min-width: 800px) {
   .wrapper {
-    max-width: 650px;
+    max-width: 600px;
 	padding: 0 10px;
   }
 
   .page-content .wrapper {
-    max-width: 650px;
+    max-width: 600px;
   }
 }
 
@@ -165,11 +166,11 @@ sub, sup {
 }
 
 .post-subtitle {
-  font-size: 24px;
+  font-size: 22px;
 }
 
 .post-content {
-  font-size: 22px;
+  font-size: 20px;
   
   .translator {
     letter-spacing: 4px;
@@ -180,8 +181,8 @@ sub, sup {
   font-size: 12px;
   padding: 6px 0 4px;
   width: 100%;
-  border-top: 1px solid #ccc;
-  background-color: aliceblue;
+  border-top: 0;
+  background-color: white;
   position: fixed;
   bottom: 0;
   left: 0;
