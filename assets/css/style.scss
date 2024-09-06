@@ -17,9 +17,10 @@ body {
 
 a {
   color: blue;
+  text-decoration: underline;
   &:hover, &:focus, &:visited {
     color: blue;
-	text-decoration: none;
+	// text-decoration: underline;
   }
 }
 
@@ -53,21 +54,23 @@ sub, sup {
 
 .wrapper {
   max-width: 650px;
-  padding-left: 15px;
-  padding-right: 15px;
-  margin-left: 0;
-  margin-right: 0;
+  padding: 0 10px;
+  margin: 0;
 }
 
 .page-content .wrapper {
   max-width: 650px;
 }
 
+.buddha {
+  max-width: 230px;
+  margin-bottom: 20px;
+}
+
 @media screen and (min-width: 800px) {
   .wrapper {
     max-width: 650px;
-    padding-left: 15px;
-    padding-right: 15px;
+	padding: 0 10px;
   }
 
   .page-content .wrapper {
@@ -81,19 +84,19 @@ sub, sup {
   min-height: auto;
   padding: 10px 0;
   border-top-width: 0;
-  border-bottom: 1px solid #99bbe8;
+  border-bottom: 1px solid #ccc;
   background-color: aliceblue;
-  box-shadow: 1px 1px 0 #e9e9e9;
   position: fixed;
   top: 0;
   left: 0;
+  z-index: 9999;
 }
 
 .site-title {
   color: blue;
   font-size: 18px;
   font-weight: bold;
-  letter-spacing: 4px;
+  // letter-spacing: 4px;
   text-decoration: none!important;
   float: none;
   &:visited {
@@ -110,17 +113,20 @@ sub, sup {
 }
 
 .page-content {
-  margin-top: 43px;
+  margin-top: 43.17px;
   margin-bottom: 26px;
+  padding: 15px 0;
 }
 
 .post-list-heading {
   font-size: 18px;
+  margin-bottom: 10px;
 }
 
 .post-list {
-  list-style: disc inside url(https://www.w3schools.com/css/sqpurple.gif);
-  margin-left: 1em;
+  list-style: square;
+  // list-style: disc inside url(https://www.w3schools.com/css/sqpurple.gif);
+  margin-left: 1.5em;
   > li {
     margin-bottom: 0;
 	line-height: 1.25;
@@ -135,14 +141,22 @@ sub, sup {
 .post-content h1 {
   display: inline;
   vertical-align: top;
-  font-size: 26px;
-  letter-spacing: 4px;
   line-height: 1.25;
 }
 
 .post-link {
-  font-size: 19px;
-  font-family: "標楷體", "細明體", "新細明體", "新細明體-ExtB", cursive, "楷体", "宋体", -apple-system, system-ui, BlinkMacSystemFont, Helvetica, Arial, sans-serif;
+  font-size: 18px;
+  // font-family: "標楷體", "細明體", "新細明體", "新細明體-ExtB", cursive, "楷体", "宋体", -apple-system, system-ui, BlinkMacSystemFont, Helvetica, Arial, sans-serif;
+}
+
+.post-title,
+.post-content h1 {
+  font-size: 26px;
+  letter-spacing: 4px;
+}
+
+.post {
+  padding: 20px 0;
 }
 
 .post-header {
@@ -163,7 +177,7 @@ sub, sup {
 }
 
 .site-footer {
-  font-size: 14px;
+  font-size: 12px;
   padding: 6px 0 4px;
   width: 100%;
   border-top: 1px solid #ccc;
@@ -171,4 +185,31 @@ sub, sup {
   position: fixed;
   bottom: 0;
   left: 0;
+}
+
+/* Popover */
+.popover {
+  border: 2px dotted red;
+  max-width: 400px;
+}
+
+/* Popover Header */
+.popover-title {
+  background-color: #73AD21;
+  color: #FFFFFF;
+  font-size: 28px;
+  text-align:center;
+  margin-bottom: 0!important;
+}
+
+/* Popover Body */
+.popover-content {
+  background-color: coral;
+  color: #FFFFFF;
+  padding: 25px;
+}
+
+/* Popover Arrow */
+.arrow {
+  border-right-color: red !important;
 }
