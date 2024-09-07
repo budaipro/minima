@@ -19,6 +19,7 @@ body {
 a {
   color: blue;
   text-decoration: underline;
+  
   &:hover, &:focus, &:visited {
     color: blue;
   }
@@ -57,15 +58,6 @@ sub, sup {
   margin: 0;
 }
 
-.page-content .wrapper {
-  max-width: 600px;
-}
-
-.buddha {
-  max-width: 230px;
-  margin-bottom: 20px;
-}
-
 .site-header {
   line-height: 1.25;
   width: 100%;
@@ -81,14 +73,11 @@ sub, sup {
 }
 
 .site-title {
-  color: blue;
+  color: blue!important;
   font-size: 18px;
   font-weight: bold;
-  text-decoration: none!important;
+  text-decoration: underline!important;
   float: none;
-  &:visited {
-    color: blue;
-  }
 }
 
 .site-nav {
@@ -142,7 +131,6 @@ sub, sup {
 }
 
 .post-header {
-  font-size: 26px;
   margin-bottom: 35px;
 }
 
@@ -152,7 +140,6 @@ sub, sup {
 
 .post-content {
   font-size: 20px;
-  
   .translator {
     letter-spacing: 4px;
   }
@@ -174,9 +161,5 @@ sub, sup {
   .wrapper {
     max-width: 600px;
 	padding: 0 10px;
-  }
-
-  .page-content .wrapper {
-    max-width: 600px;
   }
 }
