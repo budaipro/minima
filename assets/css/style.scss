@@ -104,7 +104,7 @@ sub, sup {
   margin-left: 1.5em;
   > li {
     margin-bottom: 0;
-	line-height: 1.25;
+    line-height: 1.25;
   }
 }
 
@@ -118,6 +118,13 @@ sub, sup {
 
 .post-link {
   font-size: 1.1em;
+}
+
+.post-tags {
+  i {
+    color: #666;
+    margin-right: 5px;
+  }
 }
 
 .post-title,

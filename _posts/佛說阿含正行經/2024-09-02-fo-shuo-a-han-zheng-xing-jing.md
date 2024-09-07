@@ -1,6 +1,7 @@
 ---
 layout: post
 title: 佛說阿含正行經
+tags: [十二因緣,安世高]
 ---
 
 {: .translator }

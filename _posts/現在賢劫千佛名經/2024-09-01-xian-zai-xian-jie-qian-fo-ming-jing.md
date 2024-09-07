@@ -2,6 +2,7 @@
 layout: post
 title: 現在賢劫千佛名經
 subtitle: 亦名集諸佛大功德山
+tags: [懺悔,十善業]
 ---
 
 {: .translator }

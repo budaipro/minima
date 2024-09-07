@@ -1,6 +1,7 @@
 ---
 layout: post
 title: 了本生死經
+tags: [十二因緣,四諦,支謙]
 ---
 
 {: .translator }
