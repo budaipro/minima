@@ -4,7 +4,8 @@ title: 安世高傳
 subtitle: 摘自高僧傳
 ---
 
-**梁會稽嘉祥寺沙門釋慧皎撰**{: .translator }
+{: .translator }
+梁會稽嘉祥寺沙門釋慧皎撰
 
 安清，<dfn title="人的表字。在本名外所取的与本名意义相关的另一名字。">字</dfn>世高，<dfn title="位於波斯地区之古王国。">安息國</dfn>王<dfn title="古代帝王嫡妻之称。">正后</dfn>之太子也。幼以孝行<dfn title="受人称誉。">見稱</dfn>，加又<dfn title="志向与学业、事业。">志業</dfn>聰敏，<dfn title="刻意，专心。"><ruby>剋<rt>kè</rt></ruby>意</dfn>好學，外國典籍，及<dfn title="谓日、月和金、木、水、火、土五星。亦作七耀。">七<ruby>曜<rt>yào</rt></ruby></dfn>、<dfn title="谓水、火、木、金、土。">五行</dfn>、醫方、<dfn title="谓不同的学说，奇妙的策略或办法。">異術</dfn>，乃至鳥獸之聲，無不<dfn title="总括通晓。">綜達</dfn>。<dfn title="曾经。"><ruby>嘗<rt>cháng</rt></ruby></dfn>行見群燕，忽謂伴曰：燕云應有送食者。<dfn title="不久，片刻，一会儿。">頃之</dfn>，果有致焉。眾咸<dfn title="惊奇，惊异。">奇</dfn>之，故<dfn title="卓异，非比寻常。亦指杰出异常的人。">俊異</dfn>之聲，早<dfn title="及，遍布，满。">被</dfn>西域。
 

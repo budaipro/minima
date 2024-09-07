@@ -3,7 +3,8 @@ layout: post
 title: 佛說齋經
 ---
 
-**<dfn title="东吴（222年—280年）。">吳</dfn>月氏國居士<dfn title="三国时佛教著名译经人。大月氏人后裔，其祖先于汉灵帝时归化中国。">支謙</dfn>譯**{: .translator }
+{: .translator }
+<dfn title="东吴（222年—280年）。">吳</dfn>月氏國居士<dfn title="三国时佛教著名译经人。大月氏人后裔，其祖先于汉灵帝时归化中国。">支謙</dfn>譯
 
 聞如是：
 

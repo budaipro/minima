@@ -4,7 +4,8 @@ title: 康僧會傳
 subtitle: 摘自高僧傳
 ---
 
-**梁會稽嘉祥寺沙門釋慧皎撰**{: .translator }
+{: .translator }
+梁會稽嘉祥寺沙門釋慧皎撰
 
 康僧會，其先康居人，世居天竺。其父因商賈，移于<dfn title="原为古地区名，泛指五岭以南。汉武帝时为所置十三刺史部之一，辖境相当今广东、广西大部和越南的北部、中部。">交趾</dfn>。會年十餘歲，二親並終，至孝服畢出家。勵行甚峻，為人弘雅有識量，<dfn title="深厚到了极点。">篤至</dfn>好學，明解三藏，博覽<dfn title="六部儒家经典。">六經</dfn>，天文<dfn title="图谶和纬书。">圖<ruby>緯<rt>wěi</rt></ruby></dfn>，多所綜涉，辯於<dfn title="比喻事物的关键部分。">樞機</dfn>，頗<dfn title="专注，撰写。"><ruby>屬<rt>zhǔ</rt></ruby></dfn><dfn title="文章，文辞。">文<ruby>翰<rt>hàn</rt></ruby></dfn>。
 

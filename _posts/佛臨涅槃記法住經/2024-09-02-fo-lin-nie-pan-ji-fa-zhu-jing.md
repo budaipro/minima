@@ -3,7 +3,8 @@ layout: post
 title: 佛臨涅槃記法住經
 ---
 
-**大唐三藏法師玄奘奉 詔譯**{: .translator }
+{: .translator }
+大唐三藏法師玄奘奉 詔譯
 
 如是我聞。
 

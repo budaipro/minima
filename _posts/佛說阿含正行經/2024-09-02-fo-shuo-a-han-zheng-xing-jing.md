@@ -3,7 +3,8 @@ layout: post
 title: 佛說阿含正行經
 ---
 
-**<dfn title="东汉（公元25年—220年），史称后汉。">後漢</dfn><dfn title="位於波斯地区之古王国。">安息國</dfn>三藏<dfn title="东汉僧人。名安清，字世高，安息国王正后之太子。">安世高</dfn>譯**{: .translator }
+{: .translator }
+<dfn title="东汉（公元25年—220年），史称后汉。">後漢</dfn><dfn title="位於波斯地区之古王国。">安息國</dfn>三藏<dfn title="东汉僧人。名安清，字世高，安息国王正后之太子。">安世高</dfn>譯
 
 聞如是。
 

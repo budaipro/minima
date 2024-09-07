@@ -141,6 +141,7 @@ sub, sup {
 .post-content {
   font-size: 20px;
   .translator {
+    font-weight: bold;
     letter-spacing: 4px;
   }
 }
@@ -162,4 +163,20 @@ sub, sup {
     max-width: 600px;
 	padding: 0 10px;
   }
+}
+
+.red {
+  color: red;
+}
+
+.darkorange {
+  color: darkorange;
+}
+
+.gold {
+  color: gold;
+}
+
+.limegreen {
+  color: limegreen;
 }
