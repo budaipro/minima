@@ -5,7 +5,7 @@ subtitle: 亦名聞城十二因緣經
 tags: [十二因緣,支謙]
 ---
 
-{: .translator}
+{: .author}
 吳月氏優婆塞支謙譯
 
 聞如是。
