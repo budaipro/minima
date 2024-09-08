@@ -19,7 +19,7 @@ body {
 a {
   color: blue;
   text-decoration: underline;
-  
+
   &:hover, &:focus, &:visited {
     color: blue;
   }
@@ -165,11 +165,22 @@ sub, sup {
   left: 0;
 }
 
+.site-footer-links {
+  display: flex;
+  list-style: square outside;
+  margin: 0;
+
+  li {
+    margin-left: 15px;
+    margin-right: 5px;
+  }
+}
+
 
 @media screen and (min-width: 800px) {
   .wrapper {
     max-width: 600px;
-	padding: 0 10px;
+    padding: 0 10px;
   }
 }
 
