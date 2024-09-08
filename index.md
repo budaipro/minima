@@ -6,6 +6,6 @@
 # See: https://jekyllrb.com/docs/themes/#overriding-theme-defaults
 #
 layout: home
-list_title: "经法藏"
+list_title: "经法"
 ---
 
