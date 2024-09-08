@@ -42,10 +42,15 @@ dfn, abbr {
 rt {
   font-family: Helvetica, Arial, sans-serif;
   font-size: 12px;
+  letter-spacing: 0!important;
 }
 
 sub, sup {
   font-size: 16px;
+}
+
+pre, code {
+  background-color: transparent;
 }
 
 .hidden {
@@ -129,7 +134,7 @@ sub, sup {
 
 .post-title,
 .post-content h1 {
-  font-size: 24px;
+  font-size: 26px;
   letter-spacing: 4px;
 }
 
@@ -166,7 +171,6 @@ sub, sup {
 }
 
 .site-footer-links {
-  display: flex;
   list-style: square outside;
   margin: 0;
 
@@ -177,11 +181,24 @@ sub, sup {
 }
 
 
-@media screen and (min-width: 800px) {
+@media screen and (min-width: $on-large) {
   .wrapper {
     max-width: 600px;
     padding: 0 10px;
   }
+}
+
+@media screen and (min-width: $on-medium) {
+  .site-footer-links {
+    display: flex;
+  }
+}
+
+.highlighter-rouge .highlight {
+  font-size: 22px;
+  padding: 0;
+  background-color: transparent;
+  border: none;
 }
 
 .red {
