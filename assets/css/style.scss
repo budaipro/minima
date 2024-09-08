@@ -39,6 +39,12 @@ dfn, abbr {
   border-bottom: 1px solid;
 }
 
+em {
+  dfn, abbr {
+    font-style: italic;
+  }
+}
+
 rt {
   font-family: Helvetica, Arial, sans-serif;
   font-size: 12px;
@@ -110,7 +116,11 @@ pre, code {
   > li {
     margin-bottom: 0;
     line-height: 1.25;
+    &::marker {
+      color: gold;
+    }
   }
+
 }
 
 .post-link,
@@ -127,7 +137,7 @@ pre, code {
 
 .post-tags {
   i {
-    color: #666;
+    color: #333;
     margin-right: 5px;
   }
 }
@@ -181,10 +191,12 @@ pre, code {
 .site-footer-links {
   list-style: square outside;
   margin: 0;
-
   li {
     margin-left: 15px;
     margin-right: 5px;
+    &::marker {
+      color: lightgray;
+    }
   }
 }
 
@@ -196,7 +208,7 @@ pre, code {
   }
 
   .page-content {
-    margin-bottom: 26px;
+    margin-bottom: 43px;
   }
 }
 
