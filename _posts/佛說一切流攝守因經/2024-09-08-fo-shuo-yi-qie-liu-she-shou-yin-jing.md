@@ -1,7 +1,7 @@
 ---
 layout: post
 title: 佛說一切流攝守因經
-tags: [四諦,五陰,安世高]
+tags: [十二因缘,四谛,五阴,安世高]
 ---
 
 {:.author}

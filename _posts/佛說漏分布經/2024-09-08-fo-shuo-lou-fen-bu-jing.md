@@ -2,7 +2,7 @@
 layout: post
 title: 佛說漏分布經
 subtitle: 出中阿含令劫意
-tags: [十二因緣,八正道,五陰,安世高]
+tags: [十二因缘,八正道,五阴,安世高]
 ---
 
 {:.author}

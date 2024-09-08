@@ -1,7 +1,7 @@
 ---
 layout: post
 title: 佛說不自守意經
-tags: [十二因緣,四諦,支謙]
+tags: [十二因缘,四谛,支谦]
 ---
 
 {:.author}

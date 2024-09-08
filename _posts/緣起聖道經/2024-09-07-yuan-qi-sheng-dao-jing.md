@@ -1,7 +1,7 @@
 ---
 layout: post
 title: 緣起聖道經
-tags: [十二因緣,八正道,玄奘]
+tags: [十二因缘,八正道,玄奘]
 ---
 
 {:.author }

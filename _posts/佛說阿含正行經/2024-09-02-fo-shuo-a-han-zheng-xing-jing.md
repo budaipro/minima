@@ -1,7 +1,7 @@
 ---
 layout: post
 title: 佛說阿含正行經
-tags: [十二因緣,五陰,安世高]
+tags: [十二因缘,五阴,安世高]
 ---
 
 {:.author }
