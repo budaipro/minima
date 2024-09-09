@@ -63,7 +63,7 @@ pre, code {
 }
 
 .hidden {
-  display: none;
+  display: none!important;
 }
 
 .wrapper {
@@ -139,6 +139,8 @@ pre, code {
 }
 
 .post-tags {
+  display: none;
+  font-size: 12px;
   i {
     color: #333;
     margin-right: 5px;
@@ -216,6 +218,10 @@ pre, code {
 }
 
 @media screen and (min-width: $on-medium) {
+  .post-tags {
+    font-size: 13px;
+  }
+
   .site-footer-links {
     display: flex;
   }
