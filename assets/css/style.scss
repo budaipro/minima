@@ -185,10 +185,14 @@ pre, code {
   padding: 6px 0 4px;
   width: 100%;
   border-top: 0;
-  background-color: white;
+  background-color: transparent;
   position: fixed;
   bottom: 0;
   left: 0;
+
+  .cr {
+    background-color: white;
+  }
 }
 
 .site-footer-links {
