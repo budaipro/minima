@@ -11,7 +11,7 @@ list_title: "经法"
 
 <div style="margin-bottom: 10px;">
   <div style="display: inline;">
-    <strong>本站经书使用繁体本，以简体注释。</strong><em>（由<dfn title="微信号：xshxvip。">悟文</dfn>标点注释）</em>
+    <strong>本站经书使用繁体本，以简体注释。</strong>
   </div>
 </div>
 
