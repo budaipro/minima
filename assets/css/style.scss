@@ -112,8 +112,8 @@ pre, code {
 }
 
 .post-list {
-  list-style: square;
-  margin-left: 1.5em;
+  list-style: none;
+  margin-left: 0;
   > li {
     margin-bottom: 0;
     line-height: 1.25;
@@ -172,9 +172,9 @@ pre, code {
 }
 
 .post-content {
-  font-size: 20px;
+  font-size: 22px;
   .author {
-    font-size: 22px;
+    font-size: 24px;
     font-weight: bold;
     letter-spacing: 4px;
   }
