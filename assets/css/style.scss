@@ -19,9 +19,8 @@ body {
 }
 
 a {
-  color: blue;
   text-decoration: underline;
-  &:hover, &:focus, &:visited {
+  &:visited {
     color: blue;
   }
 }
