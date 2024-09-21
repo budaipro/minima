@@ -10,8 +10,6 @@ list_title: "经法"
 ---
 
 <div style="margin-bottom: 10px;">
-  <div style="display: inline; color: brown;">
-    <strong>本站经书使用繁体本，以简体注释。</strong>
-  </div>
+  <span style="color: red; font-size: 18px; font-style: italic;">本站经书使用繁体本，以简体注释。</span>
 </div>
 

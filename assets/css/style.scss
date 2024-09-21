@@ -89,7 +89,7 @@ pre, code {
   color: blue!important;
   font-size: 18px;
   font-weight: bold;
-  text-decoration: underline!important;
+  text-decoration: none!important;
   float: none;
 }
 
@@ -152,6 +152,10 @@ pre, code {
   margin: 0;
   font-size: 16px;
   font-style: italic;
+
+  .divide span {
+    margin: 0 5px;
+  }
 }
 
 .post-title,
