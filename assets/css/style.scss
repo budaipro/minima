@@ -213,6 +213,11 @@ pre, code {
   }
 }
 
+.post-content h2 {
+  font-size: 24px;
+  letter-spacing: 4px;
+}
+
 .site-footer {
   font-size: 13px;
   padding: 6px 0 4px;
@@ -225,18 +230,6 @@ pre, code {
 
   .cr {
     background-color: white;
-  }
-}
-
-.site-footer-links {
-  list-style: square outside;
-  margin: 0;
-  li {
-    margin-left: 15px;
-    margin-right: 5px;
-    &::marker {
-      color: lightgray;
-    }
   }
 }
 
@@ -269,22 +262,13 @@ pre, code {
 }
 
 @media screen and (min-width: $on-medium) {
-  .post-content h2 {
-    font-size: 24px;
-    letter-spacing: 4px;
-  }
-
   .post-tags {
     font-size: 13px;
-  }
-
-  .site-footer-links {
-    display: flex;
   }
 }
 
 .highlighter-rouge .highlight {
-  font-size: 22px;
+  font-size: 20px;
   padding: 0;
   background-color: transparent;
   border: none;
