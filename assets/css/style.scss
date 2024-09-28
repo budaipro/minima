@@ -6,6 +6,10 @@
   "minima/skins/{{ site.minima.skin | default: 'classic' }}",
   "minima/initialize";
 
+* {
+  box-sizing: border-box;
+}
+
 html, body {
   overscroll-behavior: none;
 }
@@ -40,7 +44,7 @@ dfn, abbr {
 }
 
 em {
-  dfn, abbr {
+  dfn, abbr, i {
     font-style: italic;
   }
 }
@@ -87,7 +91,7 @@ pre, code {
   padding: 10px 0;
   border-top-width: 0;
   border-bottom: 2px solid #ccc;
-  background-color: aliceblue;
+  background-color: deepskyblue;
   position: fixed;
   top: 0;
   left: 0;
@@ -95,7 +99,7 @@ pre, code {
 }
 
 .site-title {
-  color: blue!important;
+  color: white!important;
   font-size: 18px;
   font-weight: bold;
   text-decoration: none!important;
@@ -221,13 +225,30 @@ pre, code {
 }
 
 @media screen and (min-width: $on-large) {
+  body {
+    background-color: #e6e6e6;
+  }
+
   .wrapper {
     max-width: 600px;
     padding: 0 10px;
+    margin: 0 auto;
   }
 
   .page-content {
-    // margin-bottom: 26px;
+    padding: 0;
+    margin-bottom: 0;
+
+    .wrapper {
+      padding: 15px;
+      margin: 0 auto;
+      background-color: white;
+      box-shadow: 1px 0 6px rgba(0, 0, 0, .075);
+    }
+  }
+
+  .post-content {
+    font-size: 20px;
   }
 }
 
