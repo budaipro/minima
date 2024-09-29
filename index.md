@@ -6,7 +6,7 @@
 # See: https://jekyllrb.com/docs/themes/#overriding-theme-defaults
 #
 layout: home
-list_title: "<cite>《佛说阿含正行经》</cite>有云：<mark>道不可不作，<strong><em>经</em></strong>不可不读!</mark>"
+list_title: "经法："
 ---
 
 <div style="margin-bottom: 10px;">
