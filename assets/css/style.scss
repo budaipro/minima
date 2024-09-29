@@ -106,7 +106,7 @@ pre, code {
   min-height: auto;
   padding: 10px 0;
   border-top-width: 0;
-  border-bottom: 2px solid #ccc;
+  border-bottom: none;
   background-color: deepskyblue;
   position: fixed;
   top: 0;
@@ -119,6 +119,7 @@ pre, code {
   font-size: 18px;
   font-weight: bold;
   text-decoration: none!important;
+  padding-right: 0;
   float: none;
 }
 
@@ -252,7 +253,6 @@ pre, code {
       padding: 15px;
       margin: 0 auto;
       background-color: white;
-      box-shadow: 1px 0 6px rgba(0, 0, 0, .075);
     }
   }
 
