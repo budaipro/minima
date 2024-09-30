@@ -1,13 +1,13 @@
 ---
 layout: base
 ---
-<ul class="breadcrumb">
-  <li><a href="{{ site.baseurl }}/">主页</a></li>
-  <li class="divide"><span>/</span></li>
-  <li>经书</li>
-  <li class="divide"><span>/</span></li>
-  <li>【《{{ page.title }}》】</li>
-</ul>
+<div class="breadcrumb">
+  <a href="{{ site.baseurl }}/">主页</a>
+  <span class="divide">/</span>
+  <span>经书</span>
+  <span class="divide">/</span>
+  <span>【《{{ page.title }}》】</span>
+</div>
 
 <div class="post h-entry" itemscope itemtype="http://schema.org/BlogPosting">
 
@@ -17,10 +17,12 @@ layout: base
 	  <div class="post-subtitle">{{ page.subtitle }}</div>
 	{%- endif -%}
     <p class="post-meta">
+      {%- comment -%}
       {%- assign date_format = site.minima.date_format | default: "%b %-d, %Y" -%}
-      <time class="dt-published hidden" datetime="{{ page.date | date: date_format }}" itemprop="datePublished">
+      <time class="dt-published" datetime="{{ page.date | date: date_format }}" itemprop="datePublished">
         {{ page.date | date: date_format }}
       </time>
+      {%- endcomment -%}
       {%- if page.modified_date -%}
         ~ 
         {%- assign mdate = page.modified_date | date_to_xmlschema -%}

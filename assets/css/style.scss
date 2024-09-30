@@ -177,13 +177,11 @@ pre, code {
 }
 
 .breadcrumb {
-  display: flex;
-  list-style: none;
   margin: 0;
   font-size: 16px;
   font-style: italic;
 
-  .divide span {
+  .divide {
     margin: 0 5px;
   }
 }
