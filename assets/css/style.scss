@@ -124,6 +124,7 @@ pre, code {
 }
 
 .site-fonts {
+  display: none;
   float: right;
   button {
     display: inline-block;
@@ -260,6 +261,10 @@ pre, code {
     max-width: 600px;
     padding: 0 10px;
     margin: 0 auto;
+  }
+
+  .site-fonts {
+    display: block;
   }
 
   .page-content {
