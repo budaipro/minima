@@ -8,6 +8,67 @@
 <link rel="shortcut icon" type="image/x-icon" href="{{ "/favicon.ico" | relative_url }}">
 <script>
 window.addEventListener("load", function() {
-    // do something 
+  const simsun = '"細明體", "新細明體", "新細明體-ExtB", "宋体", simsun, -apple-system, system-ui, BlinkMacSystemFont, Helvetica, Arial, sans-serif';
+  const simkai = '"標楷體", "細明體", "新細明體", "新細明體-ExtB", cursive, "楷体", "宋体", -apple-system, system-ui, BlinkMacSystemFont, Helvetica, Arial, sans-serif';
+  const btnSimsun = document.getElementById('btn-simsun');
+  const btnSimkai = document.getElementById('btn-simkai');
+  let font = getCookie("font");
+  if (font !== "") {
+    setFont(font);
+    if (font === simsun) {
+      btnSimsun.classList.add('current');
+    }
+    if (font === simkai) {
+      btnSimkai.classList.add('current');
+    }
+  } else {
+   setCookie("font", simsun, 30);
+   btnSimsun.classList.add('current');
+  }
+
+  btnSimsun.onclick = function() {
+    btnSimkai.classList.remove('current');
+    this.classList.add('current');
+    setFont(simsun);
+  };
+
+  btnSimkai.onclick = function() {
+    btnSimsun.classList.remove('current');
+    this.classList.add('current');
+    setFont(simkai);
+  };
 }, false);
+
+function setFont(fontName) {
+  setCookie("font", fontName, 30);
+  document.head
+    .insertAdjacentHTML(
+        "beforeend",
+        `<style>body{font-family:${fontName};}</style>`
+      );
+}
+
+// https://www.w3schools.com/js/tryit.asp?filename=tryjs_cookie_username
+function setCookie(cname,cvalue,exdays) {
+  const d = new Date();
+  d.setTime(d.getTime() + (exdays*24*60*60*1000));
+  let expires = "expires=" + d.toUTCString();
+  document.cookie = cname + "=" + cvalue + ";" + expires + ";path=/";
+}
+
+function getCookie(cname) {
+  let name = cname + "=";
+  let decodedCookie = decodeURIComponent(document.cookie);
+  let ca = decodedCookie.split(';');
+  for(let i = 0; i < ca.length; i++) {
+    let c = ca[i];
+    while (c.charAt(0) == ' ') {
+      c = c.substring(1);
+    }
+    if (c.indexOf(name) == 0) {
+      return c.substring(name.length, c.length);
+    }
+  }
+  return "";
+}
 </script>

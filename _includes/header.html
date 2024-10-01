@@ -10,7 +10,10 @@
     <span style="color: white; font-style: italic; margin-left:
                    10px;"><em>道</em>不可不作，<em>经</em>不可不读!</span>
 
-    {%- comment -%}
+    <div class="site-fonts">
+      <button id="btn-simsun" type="button">宋体</button>
+      <button id="btn-simkai" type="button">楷体</button>
+    </div>
     {%- if titles_size > 0 -%}
       <div class="site-nav">
         {%- for path in page_paths -%}
@@ -21,7 +24,6 @@
         {%- endfor -%}
       </div>
     {%- endif -%}
-    {%- endcomment -%}
   </div>
 </div>
 
