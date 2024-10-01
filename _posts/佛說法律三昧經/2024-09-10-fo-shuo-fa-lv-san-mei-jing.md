@@ -1,7 +1,7 @@
 ---
 layout: post
 title: 佛說法律三昧經
-tags: [外道仙人,声闻,缘觉,菩萨道,支谦]
+tags: [支谦]
 ---
 
 {:.author}

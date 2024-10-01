@@ -1,7 +1,7 @@
 ---
 layout: post
 title: 佛開解梵志阿颰經
-tags: [五戒,八正道,出家,支謙]
+tags: [支謙]
 ---
 
 {:.author}

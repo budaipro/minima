@@ -1,7 +1,7 @@
 ---
 layout: post
 title: 了本生死經
-tags: [十二因缘,四谛,支谦]
+tags: [支谦]
 ---
 
 {:.author }

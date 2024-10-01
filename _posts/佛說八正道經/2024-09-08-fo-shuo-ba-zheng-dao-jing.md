@@ -1,7 +1,7 @@
 ---
 layout: post
 title: 佛說八正道經
-tags: [八正道,安世高]
+tags: [安世高]
 ---
 
 {:.author}

@@ -1,7 +1,7 @@
 ---
 layout: post
 title: 佛說阿那律八念經
-tags: [四谛,四禅,八正道,支曜]
+tags: [支曜]
 ---
 
 {:.author}

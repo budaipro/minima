@@ -2,7 +2,7 @@
 layout: post
 title: 安世高傳
 subtitle: 摘自高僧傳
-tags: [传,安世高]
+tags: [釋慧皎]
 ---
 
 {:.author }

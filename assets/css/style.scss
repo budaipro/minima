@@ -168,10 +168,10 @@ pre, code {
 }
 
 .post-tags {
-  display: none;
   font-size: 12px;
-  i {
+  span {
     color: #333;
+    font-style: italic;
     margin-right: 5px;
   }
 }

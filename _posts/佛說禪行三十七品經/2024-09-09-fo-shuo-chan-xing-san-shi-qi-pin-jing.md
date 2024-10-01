@@ -1,7 +1,7 @@
 ---
 layout: post
 title: 佛說禪行三十七品經
-tags: [三十七品,八正道,安世高]
+tags: [安世高]
 ---
 
 {:.author}

@@ -1,7 +1,7 @@
 ---
 layout: post
 title: 佛說齋經
-tags: [八关斋戒,五念,支谦]
+tags: [支谦]
 ---
 
 {:.author }

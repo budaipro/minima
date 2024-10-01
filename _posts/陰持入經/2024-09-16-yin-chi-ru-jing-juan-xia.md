@@ -1,7 +1,7 @@
 ---
 layout: post
 title: 陰持入經卷下
-tags: [五阴,十二因缘,四谛,安世高]
+tags: [安世高]
 ---
 
 {:.author}

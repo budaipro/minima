@@ -2,7 +2,7 @@
 layout: post
 title: 康僧會傳
 subtitle: 摘自高僧傳
-tags: [传,康僧會,支谦]
+tags: [釋慧皎]
 ---
 
 {:.author }

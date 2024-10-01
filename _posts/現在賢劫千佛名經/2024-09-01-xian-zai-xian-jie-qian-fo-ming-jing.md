@@ -2,7 +2,7 @@
 layout: post
 title: 現在賢劫千佛名經
 subtitle: 亦名集諸佛大功德山
-tags: [五戒,十善业,菩萨道]
+tags: [闕譯人名]
 ---
 
 {:.author }

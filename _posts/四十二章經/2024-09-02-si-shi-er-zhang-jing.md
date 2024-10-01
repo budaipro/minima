@@ -1,7 +1,7 @@
 ---
 layout: post
 title: 四十二章經
-tags: [八正道,十善业]
+tags: [迦葉摩騰,法蘭]
 ---
 
 {:.author }
