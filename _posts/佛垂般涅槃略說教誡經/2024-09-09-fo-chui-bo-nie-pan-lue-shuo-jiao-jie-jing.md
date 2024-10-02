@@ -1,7 +1,7 @@
 ---
 layout: post
 title: 佛垂般涅槃略說教誡經
-tags: [鸠摩罗什]
+tags: [鳩摩羅什]
 ---
 
 {:.author}

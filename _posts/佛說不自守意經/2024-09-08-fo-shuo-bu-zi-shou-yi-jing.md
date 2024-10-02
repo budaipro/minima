@@ -1,7 +1,7 @@
 ---
 layout: post
 title: 佛說不自守意經
-tags: [支谦]
+tags: [支謙]
 ---
 
 {:.author}
