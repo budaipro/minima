@@ -49,6 +49,9 @@ ul, ol, dl, figure,
 hr {
   margin-top: $spacing-unit - 5;
   margin-bottom: $spacing-unit - 5;
+  border-top-width: 5px;
+  border-top-color: cornsilk;
+  border-bottom: 0;
 }
 
 /**
