@@ -1,5 +1,4 @@
 ---
-layout: post
 title: 佛說禪行三十七品經
 tags: [安世高]
 ---

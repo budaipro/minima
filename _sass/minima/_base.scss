@@ -94,6 +94,7 @@ ul, ol {
 }
 
 li {
+  > blockquote,
   > ul,
   > ol {
     margin-bottom: 0;
@@ -141,12 +142,8 @@ a {
  * Blockquotes
  */
 blockquote {
-  color: $brand-color;
-  border-left: 4px solid $border-color-01;
-  padding-left: $spacing-unit * .5;
-  @include relative-font-size(1.125);
+  color: black;
   font-style: italic;
-
   > :last-child {
     margin-bottom: 0;
   }

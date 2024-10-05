@@ -1,5 +1,4 @@
 ---
-layout: post
 title: 佛說一切流攝守因經
 tags: [安世高]
 ---

@@ -1,5 +1,4 @@
 ---
-layout: post
 title: 佛說法律三昧經
 tags: [支謙]
 ---

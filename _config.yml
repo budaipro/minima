@@ -20,6 +20,14 @@ theme: minima
 # add a line comment on "theme: minima" above.
 #remote_theme: jekyll/minima
 
+defaults:
+  -
+    scope:
+      path: ""
+      type: "posts"
+    values:
+      layout: "post"
+
 plugins:
   - jekyll-feed
   - jekyll-seo-tag

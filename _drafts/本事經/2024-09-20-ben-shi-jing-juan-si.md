@@ -1,5 +1,4 @@
 ---
-layout: post
 title: 本事經卷第四
 tags: [玄奘]
 ---

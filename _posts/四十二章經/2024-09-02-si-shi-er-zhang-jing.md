@@ -1,5 +1,4 @@
 ---
-layout: post
 title: 四十二章經
 tags: [迦葉摩騰,法蘭]
 ---

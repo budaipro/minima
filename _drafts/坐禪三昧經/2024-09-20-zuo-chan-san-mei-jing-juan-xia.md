@@ -1,5 +1,4 @@
 ---
-layout: post
 title: 坐禪三昧經卷下
 tags: [鳩摩羅什]
 ---

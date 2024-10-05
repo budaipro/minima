@@ -1,5 +1,4 @@
 ---
-layout: post
 title: 本事經卷第二
 tags: [玄奘]
 ---

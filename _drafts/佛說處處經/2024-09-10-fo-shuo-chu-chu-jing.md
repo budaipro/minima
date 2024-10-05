@@ -1,5 +1,4 @@
 ---
-layout: post
 title: 佛說處處經
 tags: [安世高]
 ---

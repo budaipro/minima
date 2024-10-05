@@ -1,5 +1,4 @@
 ---
-layout: post
 title: 持世經卷第三
 tags: [鳩摩羅什]
 ---

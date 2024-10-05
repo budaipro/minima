@@ -1,5 +1,4 @@
 ---
-layout: post
 title: 持世經卷第四
 tags: [鳩摩羅什]
 ---

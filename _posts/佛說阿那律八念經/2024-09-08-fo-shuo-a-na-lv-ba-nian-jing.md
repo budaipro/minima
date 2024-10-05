@@ -1,5 +1,4 @@
 ---
-layout: post
 title: 佛說阿那律八念經
 tags: [支曜]
 ---

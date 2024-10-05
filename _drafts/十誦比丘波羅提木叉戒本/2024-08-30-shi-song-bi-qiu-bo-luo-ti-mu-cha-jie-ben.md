@@ -1,5 +1,4 @@
 ---
-layout: post
 title: 十誦比丘波羅提木叉戒本
 tags: [鳩摩羅什]
 ---

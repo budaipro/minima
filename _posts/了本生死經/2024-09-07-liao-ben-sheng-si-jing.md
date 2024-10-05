@@ -1,5 +1,4 @@
 ---
-layout: post
 title: 了本生死經
 tags: [支謙]
 ---

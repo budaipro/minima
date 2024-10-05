@@ -1,5 +1,4 @@
 ---
-layout: post
 title: 佛說八正道經
 tags: [安世高]
 ---

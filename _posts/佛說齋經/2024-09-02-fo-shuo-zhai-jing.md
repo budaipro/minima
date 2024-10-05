@@ -1,5 +1,4 @@
 ---
-layout: post
 title: 佛說齋經
 tags: [支謙]
 ---

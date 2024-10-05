@@ -1,5 +1,4 @@
 ---
-layout: post
 title: 佛垂般涅槃略說教誡經
 tags: [鳩摩羅什]
 ---

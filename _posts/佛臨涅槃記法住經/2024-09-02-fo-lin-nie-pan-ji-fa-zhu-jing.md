@@ -1,5 +1,4 @@
 ---
-layout: post
 title: 佛臨涅槃記法住經
 tags: [玄奘]
 ---

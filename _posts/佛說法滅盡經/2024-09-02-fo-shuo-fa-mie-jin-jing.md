@@ -1,5 +1,4 @@
 ---
-layout: post
 title: 佛說法滅盡經
 tags: [失譯經人名]
 ---

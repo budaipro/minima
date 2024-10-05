@@ -1,5 +1,4 @@
 ---
-layout: post
 title: 陰持入經卷上
 tags: [安世高]
 ---

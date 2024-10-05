@@ -1,5 +1,4 @@
 ---
-layout: post
 title: 佛開解梵志阿颰經
 tags: [支謙]
 ---

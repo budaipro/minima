@@ -1,5 +1,4 @@
 ---
-layout: post
 title: 緣起聖道經
 tags: [玄奘]
 ---

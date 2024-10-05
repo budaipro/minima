@@ -1,5 +1,4 @@
 ---
-layout: post
 title: 佛說漏分布經
 subtitle: 出中阿含令劫意
 tags: [安世高]

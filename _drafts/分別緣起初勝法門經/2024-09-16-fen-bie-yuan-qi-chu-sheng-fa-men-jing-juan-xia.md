@@ -1,5 +1,4 @@
 ---
-layout: post
 title: 分別緣起初勝法門經卷下
 tags: [玄奘]
 ---

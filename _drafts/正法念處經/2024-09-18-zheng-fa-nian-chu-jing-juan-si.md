@@ -1,5 +1,4 @@
 ---
-layout: post
 title: 正法念處經卷第四
 tags: [般若流支]
 ---

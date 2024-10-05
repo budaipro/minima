@@ -1,5 +1,4 @@
 ---
-layout: post
 title: 受十善戒經
 tags: [失譯人名]
 ---

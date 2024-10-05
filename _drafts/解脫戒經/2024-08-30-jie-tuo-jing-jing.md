@@ -1,5 +1,4 @@
 ---
-layout: post
 title: 解脫戒經
 subtitle: 出迦葉毘部
 tags: [般若流支]

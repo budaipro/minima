@@ -1,5 +1,4 @@
 ---
-layout: post
 title: 佛說阿含正行經
 tags: [安世高]
 ---

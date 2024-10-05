@@ -1,5 +1,4 @@
 ---
-layout: post
 title: 貝多樹下思惟十二因緣經
 subtitle: 亦名聞城十二因緣經
 tags: [支謙]

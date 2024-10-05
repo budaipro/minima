@@ -1,5 +1,4 @@
 ---
-layout: post
 title: 中阿含七法品晝度樹經第二
 tags: [瞿曇僧伽提婆]
 ---
