@@ -16,8 +16,8 @@ html, body {
 
 body {
   color: black;
-  font: 400 16px/1.175 "細明體", "新細明體", "新細明體-ExtB", "宋体", simsun, -apple-system, system-ui, BlinkMacSystemFont, Helvetica, Arial, sans-serif;
-  // font: 400 18px/1.175 "標楷體", "細明體", "新細明體", "新細明體-ExtB", cursive, "楷体", "宋体", -apple-system, system-ui, BlinkMacSystemFont, Helvetica, Arial, sans-serif;
+  // font: 400 16px/1.175 "細明體", "新細明體", "新細明體-ExtB", "宋体", simsun, -apple-system, system-ui, BlinkMacSystemFont, Helvetica, Arial, sans-serif;
+  font: 400 19px/1.175 "標楷體", "細明體", "新細明體", "新細明體-ExtB", cursive, "楷体", "宋体", -apple-system, system-ui, BlinkMacSystemFont, Helvetica, Arial, sans-serif;
   letter-spacing: -1px;
   background-color: white;
 }
@@ -57,8 +57,7 @@ i {
   display: inline-block;
   font-style: normal;
   position: relative;
-  // background-color: #ffe4c475;
-  background-color: #bbff0050;
+  background-color: #ff630025;
 
   &:after {
     content: "▲";
@@ -117,7 +116,7 @@ pre, code {
 
 .site-title {
   color: white!important;
-  font-size: 18px;
+  font-size: 20px;
   font-weight: bold;
   text-decoration: none!important;
   padding-right: 0;
@@ -185,7 +184,7 @@ pre, code {
 }
 
 .post-link {
-  font-size: 1.1em;
+  font-size: 1.065em;
 }
 
 .post-tags {
@@ -209,12 +208,12 @@ pre, code {
 
 .post-title,
 .post-content h1 {
-  font-size: 24px;
+  font-size: 23px;
   letter-spacing: 4px;
 }
 
 .post {
-  padding: 20px 0;
+  padding: 21px 0;
 }
 
 .post-header {
@@ -222,19 +221,20 @@ pre, code {
 }
 
 .post-subtitle {
-  font-size: 20px;
+  font-size: 21px;
 }
 
 .post-content {
-  font-size: 22px;
+  font-size: 23px;
   .author {
     font-weight: bold;
     letter-spacing: 4px;
+    text-align: right;
   }
 }
 
 .post-content h2 {
-  font-size: 22px;
+  font-size: 23px;
   letter-spacing: 4px;
 }
 
@@ -280,7 +280,7 @@ pre, code {
   }
 
   .post-content {
-    font-size: 20px;
+    font-size: 21px;
   }
 }
 
@@ -291,7 +291,7 @@ pre, code {
 }
 
 .highlighter-rouge .highlight {
-  font-size: 20px;
+  font-size: 21px;
   padding: 0;
   background-color: transparent;
   border: none;

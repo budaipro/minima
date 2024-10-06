@@ -8,10 +8,10 @@
 <link rel="shortcut icon" type="image/x-icon" href="{{ "/favicon.ico" | relative_url }}">
 <script>
 window.addEventListener("load", function() {
-  const simsun = '"細明體", "新細明體", "新細明體-ExtB", "宋体", simsun, -apple-system, system-ui, BlinkMacSystemFont, Helvetica, Arial, sans-serif';
   const simkai = '"標楷體", "細明體", "新細明體", "新細明體-ExtB", cursive, "楷体", "宋体", -apple-system, system-ui, BlinkMacSystemFont, Helvetica, Arial, sans-serif';
-  const btnSimsun = document.getElementById('btn-simsun');
+  const simsun = '"細明體", "新細明體", "新細明體-ExtB", "宋体", simsun, -apple-system, system-ui, BlinkMacSystemFont, Helvetica, Arial, sans-serif';
   const btnSimkai = document.getElementById('btn-simkai');
+  const btnSimsun = document.getElementById('btn-simsun');
   let font = getCookie("font");
   if (font !== "") {
     setFont(font);
@@ -22,8 +22,8 @@ window.addEventListener("load", function() {
       btnSimkai.classList.add('current');
     }
   } else {
-   setCookie("font", simsun, 30);
-   btnSimsun.classList.add('current');
+   setCookie("font", simkai, 30);
+   btnSimkai.classList.add('current');
   }
 
   btnSimsun.onclick = function() {
