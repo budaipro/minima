@@ -17,7 +17,7 @@ html, body {
 body {
   color: black;
   // font: 400 16px/1.175 "細明體", "新細明體", "新細明體-ExtB", "宋体", simsun, -apple-system, system-ui, BlinkMacSystemFont, Helvetica, Arial, sans-serif;
-  font: 400 19px/1.175 "標楷體", "細明體", "新細明體", "新細明體-ExtB", cursive, "楷体", "宋体", -apple-system, system-ui, BlinkMacSystemFont, Helvetica, Arial, sans-serif;
+  font: 400 16px/1.175 "標楷體", "細明體", "新細明體", "新細明體-ExtB", cursive, "楷体", "宋体", -apple-system, system-ui, BlinkMacSystemFont, Helvetica, Arial, sans-serif;
   letter-spacing: -1px;
   background-color: white;
 }
@@ -112,11 +112,15 @@ pre, code {
   top: 0;
   left: 0;
   z-index: 9999;
+
+  .c {
+    font-size: 16px;
+  }
 }
 
 .site-title {
   color: white!important;
-  font-size: 20px;
+  font-size: 18px;
   font-weight: bold;
   text-decoration: none!important;
   padding-right: 0;
@@ -221,11 +225,11 @@ pre, code {
 }
 
 .post-subtitle {
-  font-size: 21px;
+  font-size: 19px;
 }
 
 .post-content {
-  font-size: 23px;
+  font-size: 20px;
   .author {
     font-weight: bold;
     letter-spacing: 4px;
@@ -234,7 +238,7 @@ pre, code {
 }
 
 .post-content h2 {
-  font-size: 23px;
+  font-size: 22px;
   letter-spacing: 4px;
 }
 
@@ -256,12 +260,21 @@ pre, code {
 @media screen and (min-width: $on-large) {
   body {
     background-color: #e6e6e6;
+    font-size: 19px;
   }
 
   .wrapper {
     max-width: 600px;
     padding: 0 10px;
     margin: 0 auto;
+  }
+
+  .site-header .c {
+    font-size: 18px;
+  }
+
+  .site-title {
+    font-size: 20px;
   }
 
   .site-fonts {
@@ -281,7 +294,15 @@ pre, code {
 
   .post-content {
     font-size: 21px;
+    h2 {
+      font-size: 23px;
+    }
   }
+
+  .post-subtitle {
+    font-size: 21px;
+  }
+
 }
 
 @media screen and (min-width: $on-medium) {
