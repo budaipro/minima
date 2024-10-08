@@ -14,6 +14,12 @@ body {
   // font: 400 16px/1.175 "細明體", "新細明體", "新細明體-ExtB", "宋体", simsun, -apple-system, system-ui, BlinkMacSystemFont, Helvetica, Arial, sans-serif;
 }
 
+.site-header .wrapper {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
 
 /*
  * Stylings
@@ -51,14 +57,14 @@ body {
   float: right;
 
   .site-font-selector {
-    display: inline-block;
+    display: flex;
+    align-items: center;
     cursor: pointer;
     color: white;
-    font-size: 11px;
+    font-size: 10px;
     border-style: solid;
-    border-width: 1px;
+    border-width: 2px;
     border-color: white black black white;
-    padding: 2px 3px 1px;
     background-color: transparent;
 
     &.current {
@@ -74,7 +80,8 @@ body {
  */
 @media screen and (min-width: $on-large) {
   .site-font-selectors {
-    display: block;
+    display: flex;
+    margin-left: auto;
   }
 }
 

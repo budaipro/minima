@@ -4,7 +4,7 @@
 .site-header {
   line-height: 1.25;
   width: 100%;
-  padding: 10px 0;
+  padding: 5px 0 4px;
   background-color: blue;
 
   // Positioning context for the mobile navigation icon
@@ -130,7 +130,7 @@
  * Page content
  */
 .page-content {
-  padding: 25px 0;
+  padding: 10px 0;
 }
 
 .page-heading {
@@ -161,12 +161,12 @@
  * Breadcrumb
  */
 .breadcrumb {
-  font-size: 16px;
+  font-size: $small-font-size;
   font-style: italic;
   margin-bottom: 20px;
 
   .divide {
-    margin: 0 5px;
+    margin: 0 1px;
   }
 }
 
@@ -176,7 +176,7 @@
  * Posts
  */
 .post-header {
-  margin-bottom: $spacing-unit;
+  margin-bottom: 20px;
 }
 
 .post-title,
@@ -194,7 +194,7 @@
 }
 
 .post-content {
-  margin-bottom: $spacing-unit;
+  margin-bottom: 10px;
 
   h1, h2, h3, h4, h5, h6 {
     margin-top: $spacing-unit;

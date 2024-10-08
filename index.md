@@ -10,7 +10,7 @@ list_title: "经书："
 
 <hr>
 
-<div style="margin-bottom: 20px;">
+<div style="margin-bottom: 15px;">
   <em class="red">本站经书使用繁体本，以简体注释。</em>
 </div>
 
