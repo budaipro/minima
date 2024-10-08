@@ -1,5 +1,6 @@
 html {
   font-size: $base-font-size;
+  overscroll-behavior: none;
 }
 
 /**
@@ -10,7 +11,6 @@ p, blockquote, pre, hr,
 dl, dd, ol, ul, figure {
   margin: 0;
   padding: 0;
-
 }
 
 
@@ -19,8 +19,9 @@ dl, dd, ol, ul, figure {
  * Basic styling
  */
 body {
-  font: $base-font-weight #{$base-font-size}/#{$base-line-height} $base-font-family;
   color: $text-color;
+  font: $base-font-weight #{$base-font-size}/#{$base-line-height} $base-font-family;
+  letter-spacing: -1px;
   background-color: $background-color;
   -webkit-text-size-adjust: 100%;
   -webkit-font-feature-settings: "kern" 1;
@@ -28,10 +29,8 @@ body {
        -o-font-feature-settings: "kern" 1;
           font-feature-settings: "kern" 1;
   font-kerning: normal;
-  display: flex;
-  min-height: 100vh;
-  flex-direction: column;
   overflow-wrap: break-word;
+  overscroll-behavior: none;
 }
 
 
@@ -43,15 +42,14 @@ h1, h2, h3, h4, h5, h6,
 p, blockquote, pre,
 ul, ol, dl, figure,
 %vertical-rhythm {
-  margin-bottom: $spacing-unit * .5;
+  margin-bottom: 20px;
 }
 
 hr {
-  margin-top: $spacing-unit - 5;
-  margin-bottom: $spacing-unit - 5;
-  border-top-width: 5px;
-  border-top-color: cornsilk;
-  border-bottom: 0;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  border: 0;
+  border-top: 8px solid #e8e8e8;
 }
 
 /**
@@ -107,7 +105,7 @@ li {
  * Headings
  */
 h1, h2, h3, h4, h5, h6 {
-  font-weight: $base-font-weight;
+  font-weight: bold;
 }
 
 
@@ -117,7 +115,7 @@ h1, h2, h3, h4, h5, h6 {
  */
 a {
   color: $link-base-color;
-  text-decoration: none;
+  text-decoration: underline;
 
   &:visited {
     color: $link-visited-color;
@@ -154,17 +152,58 @@ blockquote {
 }
 
 
+/**
+ * Typography
+ */
+strong {
+}
+
+em {
+}
+
+mark {
+  color: inherit;
+  background-color: #ffd70075;
+}
+
+i {
+  background-color: #ff630025;
+}
+
+u {
+  cursor: help;
+}
+
+dfn, abbr {
+  cursor: help;
+  font-style: normal;
+  border-bottom: 1px solid;
+
+  em & {
+    font-style: italic;
+  }
+}
+
+sub, sup {
+  font-size: $small-font-size;
+}
+
+ruby {
+  rt {
+    font-family: Helvetica, Arial, sans-serif;
+    font-size: 12px;
+    letter-spacing: 0!important;
+  }
+}
+
+
 
 /**
  * Code formatting
  */
 pre,
 code {
-  font-family: $code-font-family;
-  font-size: 0.9375em;
-  border: 1px solid $border-color-01;
-  border-radius: 3px;
-  background-color: $code-background-color;
+  font-family: $base-font-family;
 }
 
 code {
@@ -183,12 +222,10 @@ pre {
 }
 
 .highlight {
-  border-radius: 3px;
-  background: $code-background-color;
   @extend %vertical-rhythm;
 
   .highlighter-rouge & {
-    background: $code-background-color;
+    background: transparent;
   }
 }
 
@@ -198,18 +235,11 @@ pre {
  * Wrapper
  */
 .wrapper {
-  max-width: calc(#{$content-width} - (#{$spacing-unit}));
   margin-right: auto;
   margin-left: auto;
-  padding-right: $spacing-unit * .5;
-  padding-left: $spacing-unit * .5;
+  padding-right: 10px;
+  padding-left: 10px;
   @extend %clearfix;
-
-  @media screen and (min-width: $on-large) {
-    max-width: calc(#{$content-width} - (#{$spacing-unit} * 2));
-    padding-right: $spacing-unit;
-    padding-left: $spacing-unit;
-  }
 }
 
 
