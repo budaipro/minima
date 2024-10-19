@@ -135,7 +135,6 @@
  */
 .pagination {
   margin-bottom: $spacing-unit;
-  @extend .social-media-list;
   li {
     a, div {
       min-width: 41px;
