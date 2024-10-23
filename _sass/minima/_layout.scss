@@ -37,7 +37,6 @@
  */
 .site-footer {
   font-size: 13px;
-  padding: 0 10px;
   width: 100%;
 }
 
@@ -60,8 +59,8 @@
 }
 
 .post-list {
-  margin-left: 15px;
-  list-style: default;
+  margin-left: 0;
+  list-style: none;
 }
 
 .post-meta {
