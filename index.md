@@ -1,6 +1,6 @@
 ---
 layout: home
-list_title: "法藏经书："
+list_title: "佛典经籍："
 ---
 <div>
   <h3 style="font-size: 18px;">过去五十三佛及过去七佛</h3>
@@ -17,7 +17,7 @@ list_title: "法藏经书："
 {%- if posts.size > 0 -%}
   {%- if page.list_title -%}
   <h2 class="post-list-heading">{{ page.list_title }}</h2>
-  <div style="font-style: italic; margin-bottom: 15px;">如《佛说海八德经》云：『【繁体】（佛告沙門曰）<strong>吾之經籍，<em>義美</em>甘露，仙聖<em>所不聞</em>，梵釋<em>所希覩</em>；<em class="red">往古來今，無物不記，邊中皆正</em>，猶海通鹹。亦<em class="red">以斯故，沙門<i>樂之</i></em>。夫見吾經者，<span class="red"><em><i>意</i></em>皆趣無為</span>矣。</strong>』</div>
+  <div style="font-style: italic; margin-bottom: 15px;">如《佛说海八德经》云：『【繁体】（佛告沙門曰）<strong>吾之經籍，<em>義美</em>甘露，仙聖<em>所不聞</em>，梵釋<em>所希覩</em>；<em class="red">往古來今，無物不記，邊中皆正</em>，猶海通鹹。亦<em>以斯故，沙門<i>樂之</i></em>。夫見吾經者，<i>意</i>皆趣無為矣。</strong>』</div>
   <div style="margin-bottom: 15px;">本站经书皆用繁体本，以简体注释。原文由悟文重新断句标点。</div>
   {%- endif -%}
   <ul class="post-list">
