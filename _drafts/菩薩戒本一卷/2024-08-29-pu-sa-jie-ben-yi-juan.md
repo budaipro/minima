@@ -2,6 +2,7 @@
 title: 菩薩戒本一卷
 subtitle: 出地持戒品中
 tags: [曇無讖]
+published: false
 ---
 
 {:.author}

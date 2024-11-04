@@ -51,12 +51,3 @@ minima:
   # Refer to https://shopify.github.io/liquid/filters/date/ if you want to customize this.
   date_format: "%Y/%m/%d"
 
-  # Generate social links in footer.
-  #social_links:
-  #  - { platform: devto,          user_url: "https://dev.to/jekyll" }
-  #  - { platform: github,         user_url: "https://github.com/jekyll/minima" }
-  #  - { platform: gitlab,         user_url: "https://gitlab.com/jekyll" }
-  #  - { platform: microdotblog,   user_url: "https://micro.blog/jekyll" }
-  #  - { platform: telegram,       user_url: "https://t.me/jekyll" }
-  #  - { platform: x,              user_url: "https://x.com/jekyllrb" }
-  #  - { platform: youtube,        user_url: "https://www.youtube.com/jekyll" }
