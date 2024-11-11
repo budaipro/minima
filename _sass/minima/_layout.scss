@@ -35,7 +35,7 @@
  * Site footer
  */
 .site-footer {
-  font-size: 13px;
+  font-size: $small-font-size;
   width: 100%;
 }
 
@@ -46,7 +46,7 @@
  */
 .page-content {
   padding: 10px 0;
-  margin-top: 30px;
+  margin-top: 27px;
 }
 
 .page-heading {
@@ -97,7 +97,7 @@
 
 .post-title,
 .post-content h1 {
-  font-size: 22px;
+  font-size: $base-font-size + 6;
   letter-spacing: 4px;
   line-height: 1.15;
   margin-bottom: 0;
@@ -117,12 +117,12 @@
   }
 
   h2 {
-    font-size: 20px;
+    font-size: $base-font-size + 4;
     letter-spacing: 4px;
   }
 
   h3, h4, h5, h6 {
-    font-size: 18px;
+    font-size: $base-font-size + 4;
   }
 }
 
