@@ -21,7 +21,7 @@ dl, dd, ol, ul, figure {
 body {
   color: $text-color;
   font: $base-font-weight #{$base-font-size}/#{$base-line-height} $base-font-family;
-  letter-spacing: 0.0725rem;
+  letter-spacing: $letter-spacing;
   background-color: $background-color;
   -webkit-text-size-adjust: 100%;
   -webkit-font-feature-settings: "kern" 1;
@@ -117,7 +117,7 @@ h1, h2, h3, h4, h5, h6 {
 a {
   color: $link-base-color;
   text-decoration: underline;
-  transition: .1s;
+  // transition: .1s;
 
   &:visited {
     color: $link-visited-color;
@@ -125,6 +125,7 @@ a {
 
   &:hover {
     color: $link-hover-color;
+    text-decoration: underline;
     // font-weight: bold;
   }
 }
