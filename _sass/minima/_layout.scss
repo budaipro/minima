@@ -66,6 +66,10 @@
   color: $brand-color;
   font-size: $small-font-size;
   font-style: italic;
+
+  > span {
+    margin-right: 5px;
+  }
 }
 
 .post-link {
