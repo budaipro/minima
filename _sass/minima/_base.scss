@@ -22,7 +22,7 @@ body {
   color: $text-color;
   font: $base-font-weight #{$base-font-size}/#{$base-line-height} $base-font-family;
   letter-spacing: $letter-spacing;
-  background: $background-color url(/assets/X57p0474_01.gif) right 40px/350px no-repeat fixed;
+  background: $background-color;
   -webkit-text-size-adjust: 100%;
   -webkit-font-feature-settings: "kern" 1;
      -moz-font-feature-settings: "kern" 1;
@@ -33,8 +33,12 @@ body {
   overscroll-behavior: none;
   // zoom: 110%;
 
-  @include media-query($on-large + 100) {
-    background: $background-color;
+  &.home {
+    background: $background-color url("/assets/X57p0474_01.gif") right 40px/350px no-repeat fixed;
+
+    @include media-query($on-large + 100) {
+      background: $background-color;
+    }
   }
 }
 
