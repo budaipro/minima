@@ -34,7 +34,7 @@ body {
   // zoom: 110%;
 
   &.home {
-    background: $background-color url("/assets/X57p0474_01.gif") right 40px/350px no-repeat fixed;
+    background: $background-color url("https://gcore.jsdelivr.net/gh/budaipro/assets/img/minima/X57p0474_01.png") right 40px/350px no-repeat fixed;
 
     @include media-query($on-large + 100) {
       background: $background-color;
