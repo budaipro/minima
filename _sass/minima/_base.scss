@@ -210,11 +210,13 @@ code {
 }
 
 code {
+  color: #666;
   font-style: italic;
   font-size: $small-font-size;
   font-family: sans-serif;
   padding: 1px 4px;
-  background-color: beige;
+  text-emphasis: dot;
+  text-emphasis-position: under;
 }
 
 pre {
