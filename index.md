@@ -24,7 +24,7 @@ list_title: "佛典经籍："
 {% endif %}
 
 {%- if posts.size > 0 -%}
-  <div style="margin-bottom: 15px;">如《佛说海八德经》云：『<span style="font-style: italic;">（佛告沙门曰：）吾之经籍，义美甘露，仙圣所不闻、梵释所希睹；<strong>往古來今，无物不记，边中皆正</strong>，犹海通咸。亦以斯故，沙门<strong>乐</strong>之。夫见吾经者，<strong>意</strong>皆趣无为矣。</span>』</div>
+  <div style="margin-bottom: 15px;">如《佛说海八德经》云：『<span style="font-style: italic;">（佛告沙门曰：）吾之经籍，义美甘露，仙圣所不闻，梵释所希睹；<strong>往古来今，无物不记，边中皆正</strong>，犹海通咸。亦以斯故，沙门<strong>乐</strong>之。夫<em><strong>见</strong>吾经</em>者，<em>意</em>皆趣<em>无为</em>矣。</span>』</div>
   <hr>
   {%- if page.list_title -%}
   <h2 class="post-list-heading" style="margin-bottom: 5px;">{{ page.list_title }}</h2>

@@ -14,19 +14,32 @@
   left: 0;
   right: 0;
   z-index: 9999;
+
+  .wrapper {
+    width: 100%;
+    max-width: 100%;
+  }
+
+  a {
+    color: white;
+    text-decoration: none!important;
+
+    &:hover,
+    &:visited {
+      color: white;
+    }
+  }
 }
 
 .site-title {
-  color: white;
   font-weight: bold;
-  text-decoration: none!important;
   margin-bottom: 0;
   float: none;
 
-  &:hover,
-  &:visited {
-    color: white;
-  }
+}
+
+.site-nav {
+  margin-left: auto;
 }
 
 

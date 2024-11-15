@@ -31,6 +31,7 @@ body {
   font-kerning: normal;
   overflow-wrap: break-word;
   overscroll-behavior: none;
+  // zoom: 110%;
 }
 
 
@@ -157,11 +158,11 @@ em {
 
 mark {
   color: inherit;
-  background-color: gold;
+  background-color: #ffd70080;
 }
 
 i {
-  background-color: bisque;
+  background-color: #ffe4c480;
 }
 
 u {
@@ -232,7 +233,7 @@ pre {
  * Wrapper
  */
 .wrapper {
-  width: 600px;
+  width: 535px;
   max-width: 100%;
   padding-right: 10px;
   padding-left: 10px;

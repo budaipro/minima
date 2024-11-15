@@ -1,7 +1,6 @@
 ---
 title: 惟日雜難經一卷
 tags: [支謙]
-published: false
 ---
 
 {:.author}

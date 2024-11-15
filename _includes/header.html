@@ -1,5 +1,4 @@
 <div class="site-header">
-
   <div class="wrapper">
     {%- assign default_paths = site.pages | map: "path" -%}
     {%- assign page_paths = site.header_pages | default: default_paths -%}
@@ -9,6 +8,7 @@
     </a>
     <em style="color: white; font-size: 12px; font-style: italic;">（<strong>道</strong>不可不作，<strong>经</strong>不可不读!）</em>
 
+    {%- comment -%}
     {%- if titles_size > 0 -%}
       <div class="site-nav">
         {%- for path in page_paths -%}
@@ -19,6 +19,7 @@
         {%- endfor -%}
       </div>
     {%- endif -%}
+    {%- endcomment -%}
   </div>
 </div>
 
