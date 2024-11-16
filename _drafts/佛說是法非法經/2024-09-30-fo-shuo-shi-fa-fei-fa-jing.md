@@ -1,5 +1,5 @@
 ---
-title: 佛說轉法輪經
+title: 佛說是法非法經
 tags: [安世高]
 subtitle: 出中阿含
 ---
