@@ -34,7 +34,7 @@ body {
   // zoom: 110%;
 
   &.home {
-    background: $background-color url("https://gcore.jsdelivr.net/gh/budaipro/assets/img/minima/X57p0474_01.png") right 40px/350px no-repeat fixed;
+    background: $background-color url("https://cdn.jsdelivr.net/gh/budaipro/assets@latest/img/minima/X57p0474_01.png") right 40px/350px no-repeat fixed;
 
     @include media-query($on-large + 100) {
       background: $background-color;
@@ -97,7 +97,7 @@ figcaption {
  * Lists
  */
 ul, ol {
-  margin-left: 15px;
+  margin-left: 9px;
   list-style: square;
 }
 
@@ -108,6 +108,12 @@ li {
     margin-bottom: 0;
   }
 }
+
+li::marker {
+  content: "▼";
+  font-size: 65%;
+}
+
 
 
 
@@ -167,11 +173,11 @@ em {
 
 mark {
   color: inherit;
-  background-color: #ffd70080;
+  background-color: #ffff00cc;
 }
 
 i {
-  background-color: #ffe4c480;
+  background-color: #ffab9180;
 }
 
 u {
