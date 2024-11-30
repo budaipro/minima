@@ -1,6 +1,7 @@
 ---
 title: 佛說罵意經
 tags: [安世高]
+published: false
 ---
 
 {:.author}

@@ -132,7 +132,7 @@ h1, h2, h3, h4, h5, h6 {
 a {
   color: $link-base-color;
   text-decoration: underline;
-  text-underline-offset: 0.225em;
+  text-underline-offset: 0.175em;
   // transition: .1s;
 
   &:visited {
@@ -204,6 +204,10 @@ ruby {
     font-size: 10px;
     letter-spacing: 0!important;
   }
+}
+
+dt {
+  margin-top: 15px;
 }
 
 
