@@ -97,7 +97,7 @@ figcaption {
  * Lists
  */
 ul, ol {
-  margin-left: 9px;
+  margin-left: 10px;
   list-style: square;
 }
 
@@ -110,8 +110,7 @@ li {
 }
 
 li::marker {
-  content: "▼";
-  font-size: 65%;
+  content: url(/assets/sqpurple.gif);
 }
 
 
