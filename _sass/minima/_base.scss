@@ -110,7 +110,7 @@ li {
 }
 
 li::marker {
-  content: url(/assets/sqpurple.gif);
+  // content: url(/assets/sqpurple.gif);
 }
 
 
@@ -172,11 +172,14 @@ em {
 
 mark {
   color: inherit;
-  background-color: #ffff00cc;
+  background-color: transparent;
+  text-emphasis: circle red;
+  text-emphasis-position: under;
 }
 
 i {
-  background-color: #ffab9180;
+  text-emphasis: circle blue;
+  text-emphasis-position: under;
 }
 
 u {
