@@ -31,7 +31,6 @@ body {
   font-kerning: normal;
   overflow-wrap: break-word;
   overscroll-behavior: none;
-  zoom: 125%;
 
   &.home {
     background: $background-color url("https://cdn.jsdelivr.net/gh/budaipro/assets@latest/img/minima/X57p0474_01.png") right 40px/350px no-repeat fixed;
@@ -172,14 +171,15 @@ em {
 
 mark {
   color: inherit;
-  background-color: transparent;
-  text-emphasis: circle red;
-  text-emphasis-position: under;
+  background-color: #8fbc8f85;
+  // text-emphasis: circle red;
+  // text-emphasis-position: under;
 }
 
 i {
-  text-emphasis: circle blue;
-  text-emphasis-position: under;
+  // text-emphasis: circle blue;
+  // text-emphasis-position: under;
+  background-color: bisque;
 }
 
 u {
