@@ -1,2 +1,39 @@
 // Placeholder to allow defining custom styles that override everything else.
 // (Use `_sass/minima/custom-variables.scss` to override variable defaults)
+pre {
+  font: 11pt/1.185 "dejavu sans mono", menlo, consolas, arial, simsun, dengxian, sans-serif;
+  white-space: pre;
+  width: 100%;
+  padding: 0;
+  margin: 1em;
+  border: none;
+  box-shadow: none;
+  background-color: transparent;
+}
+
+.collapse {
+  display: inline;
+}
+
+.collapse-toggler {
+  cursor: pointer;
+  color: blue;
+  text-decoration: none;
+}
+
+.collapse-toggler.active {
+  font-weight: bold;
+}
+
+.collapse-toggler + abbr {
+  font-size: 85%;
+}
+
+.collapse-body {
+  display: none;
+}
+
+.collapse-body.active {
+  display: inline;
+}
+

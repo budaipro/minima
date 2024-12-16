@@ -6,7 +6,7 @@ title: 佛刹世界
 {:.author}
 悟文整理
 
-## 未整理
+## 佛刹概览
 
 <pre style="margin: 0; overflow: visible; font-size: 12px;">
 佛刹
@@ -21,10 +21,10 @@ title: 佛刹世界
       │ ├ 无热天
       │ └ 无烦天</div></div>
       ├ 无想天
-      ├ <em class="red"><b>广果天</b></em> ←
+      ├ <em class="red"><b>广果天</b></em> ← 风灾不过
       ├ 福生天
       └ 无云天
-        ├ ...
+        ↓ ...
         ├ 庄严劫
         ├ <div class="collapse"><span class="collapse-toggler" data-toggle="collapse">贤劫</span><div class="collapse-body">
         │ ├ 成劫 
@@ -33,14 +33,14 @@ title: 佛刹世界
         │ │   ├ ...
         │ │   └ <div class="collapse"><span class="collapse-toggler" data-toggle="collapse"><b class="red">中千世界</b></span><div class="collapse-body">
         │ │     ├ <div class="collapse"><span class="collapse-toggler" data-toggle="collapse">三禅</span><div class="collapse-body">
-        │ │     │ ├ <em class="red"><b>遍净天</b></em> ←
+        │ │     │ ├ <em class="red"><b>遍净天</b></em> ← 水灾不过
         │ │     │ ├ 无量净天
         │ │     │ └ 少净天</div></div>
         │ │     └ <div class="collapse"><span class="collapse-toggler" data-toggle="collapse"><b>千</b><em>小千世界</em></span><div class="collapse-body">
         │ │       ├ ...
         │ │       └ <div class="collapse"><span class="collapse-toggler" data-toggle="collapse">小千世界</span><div class="collapse-body">
         │ │         ├ <div class="collapse"><span class="collapse-toggler" data-toggle="collapse">二禅</span><div class="collapse-body">
-        │ │         │ ├ <em class="red"><b>极光净天（光音天）</b></em> ←
+        │ │         │ ├ <em class="red"><b>极光净天（光音天）</b></em> ← 火灾不过
         │ │         │ ├ 少量光天
         │ │         │ └ 少光天</div></div>
         │ │         └ <div class="collapse"><span class="collapse-toggler" data-toggle="collapse"><b>千</b><em>小世界</em></span><div class="collapse-body">
@@ -191,8 +191,8 @@ title: 佛刹世界
         │ │                     ├ <div class="collapse"><span class="collapse-toggler" data-toggle="collapse">第九小劫</span><div class="collapse-body">
         │ │                     │ ├ <div class="collapse"><span class="collapse-toggler" data-toggle="collapse">增劫</span><div class="collapse-body">
         │ │                     │ │ ├ 人寿一十岁
-        │ │                     │ │ ├ ...
-        │ │                     │ │ └ <div class="collapse"><span class="collapse-toggler" data-toggle="collapse">人寿八万四千岁</span><div class="collapse-body">
+        │ │                     │ │ ↓  ...
+        │ │                     │ │ └ <div class="collapse"><span class="collapse-toggler" data-toggle="collapse">人寿八万岁</span><div class="collapse-body">
         │ │                     │ │   └ <b>转轮圣王</b>出世</div></div></div></div>
         │ │                     │ └ <div class="collapse"><span class="collapse-toggler" data-toggle="collapse">减劫</span><div class="collapse-body">
         │ │                     │    ├ 人寿八万岁
@@ -212,12 +212,16 @@ title: 佛刹世界
         │ │                     │    ├ 人寿二百岁
         │ │                     │    ├ <div class="collapse"><span class="collapse-toggler" data-toggle="collapse">人寿一百岁</span><div class="collapse-body">
         │ │                     │    │ └ <b>释迦牟尼佛</b>出世</div></div>
-        │ │                     │    ├ ...
-        │ │                     │    └ 人寿一十岁</div></div></div></div>
+        │ │                     │    ↓ ...
+        │ │                     │    └ 人寿一十岁
+        │ │                     │      └ 小三灾
+        │ │                     │        ├ 刀兵劫
+        │ │                     │        ├ 饥馑劫
+        │ │                     │        └ 疾疫劫</div></div></div></div>
         │ │                     ├ <div class="collapse"><span class="collapse-toggler" data-toggle="collapse">第十小劫</span><div class="collapse-body">
         │ │                     │ ├ <div class="collapse"><span class="collapse-toggler" data-toggle="collapse">增劫</span><div class="collapse-body">
         │ │                     │ │ ├ 人寿一十岁
-        │ │                     │ │ ├ ...
+        │ │                     │ │ ↓  ...
         │ │                     │ │ └ <div class="collapse"><span class="collapse-toggler" data-toggle="collapse">人寿八万岁</span><div class="collapse-body">
         │ │                     │ │   └ <b>弥勒佛</b>出世</div></div></div></div>
         │ │                     │ └ 减劫</div></div>
@@ -236,7 +240,7 @@ title: 佛刹世界
         │ ├ 坏劫
         │ └ 空劫</div></div>
         ├ 星宿劫
-        └ ...</div></div>
+        ↓ ...</div></div>
   
 </pre>	 
 
