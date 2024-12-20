@@ -17,8 +17,9 @@ pre {
 
 .collapse-toggler {
   cursor: pointer;
-  color: blue;
-  text-decoration: none;
+  color: black;
+  text-decoration: 1px dotted underline #ccc;
+  text-underline-offset: 0.125em;
 }
 
 .collapse-toggler.active {
