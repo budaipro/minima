@@ -18,7 +18,8 @@ pre {
 .collapse-toggler {
   cursor: pointer;
   color: black;
-  text-decoration: 1px dotted underline #ccc;
+  text-decoration: 1px dotted underline;
+  text-decoration-color: darkgray;
   text-underline-offset: 0.125em;
 }
 
