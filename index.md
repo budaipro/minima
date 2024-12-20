@@ -17,20 +17,20 @@ list_title: "佛典经籍："
 │     │ ├ 广果天
 │     │ ├ 福生天
 │     │ └ 无云天
-│     └─┬ <span class="darkgray">千<em>中千世界</em></span> ──┬──┬── ...
-│       └ <b>中千世界</b>
+│     └─┬ <span class="darkgray">千<em>中千世界</em></span>
+│       └ <b>中千世界</b> ──┬── ...
 │         ├ 三禅
 │         │ ├ 遍净天
 │         │ ├ 无量净天
 │         │ └ 少净天
-│         └─┬ <span class="darkgray">千<em>小千世界</em></span> ──┬──┬── ...
-│           └ <b>小千世界</b>
+│         └─┬ <span class="darkgray">千<em>小千世界</em></span>
+│           └ <b>小千世界</b> ──┬── ...
 │             ├ 二禅
 │             │ ├ 极光净天
 │             │ ├ 少量光天
 │             │ └ 少光天
-│             └─┬ <span class="darkgray">千<em>小世界</em></span> ──┬──┬── ...
-│               └ <b>小世界</b>
+│             └─┬ <span class="darkgray">千<em>小世界</em></span>
+│               └ <b>小世界</b> ──┬── ...
 │                 ├ 初禅
 │                 │ ├ 大梵天
 │                 │ ├ 梵辅天
@@ -84,8 +84,8 @@ list_title: "佛典经籍："
 │     │ │ └ <span class="darkviolet">寿<em>二百五十大劫</em></span></div></div>
 │     │ └ <div class="collapse"><span class="collapse-toggler" data-toggle="collapse"><span class="darkviolet">无云天</span></span><div class="collapse-body">
 │     │   └ <span class="darkviolet">寿<em>一百二十五大劫</em></span></div></div></div></div>
-│     └─┬ <span class="darkgray">千<em>中千世界</em></span> ──┬──┬── ...
-│       └ <span class="dodgerblue"><b>中千世界</b></span>
+│     └─┬ <span class="darkgray">千<em>中千世界</em></span>
+│       └ <span class="dodgerblue"><b>中千世界</b></span> ──┬── ...
 │         ├ <span class="dodgerblue">三禅</span>
 │         │ ├ <div class="collapse"><span class="collapse-toggler" data-toggle="collapse"><span class="dodgerblue">遍净天</span><em><b>（水灾止）</b></em></span><div class="collapse-body">
 │         │ │ └ <span class="dodgerblue">寿<em>六十四大劫</em></span></div></div>
@@ -93,8 +93,8 @@ list_title: "佛典经籍："
 │         │ │ └ <span class="dodgerblue">寿<em>三十二大劫</em></span></div></div>
 │         │ └ <div class="collapse"><span class="collapse-toggler" data-toggle="collapse"><span class="dodgerblue">少净天</span></span><div class="collapse-body">
 │         │   └ <span class="dodgerblue">寿<em>十六大劫</em></span></div></div>
-│         └─┬ <span class="darkgray">千<em>小千世界</em></span> ──┬──┬── ...
-│           └ <span class="brown"><b>小千世界</b></span>
+│         └─┬ <span class="darkgray">千<em>小千世界</em></span>
+│           └ <span class="brown"><b>小千世界</b></span> ──┬── ...
 │             ├ <span class="brown">二禅</span>
 │             │ ├ <div class="collapse"><span class="collapse-toggler" data-toggle="collapse"><span class="brown">极光净天</span><em><b>（火灾止）</b></em></span><div class="collapse-body">
 │             │ │ └ <span class="brown">寿<em>八大劫</em></span></div></div>
@@ -102,8 +102,8 @@ list_title: "佛典经籍："
 │             │ │ └ <span class="brown">寿<em>四大劫</em></span></div></div>
 │             │ └ <div class="collapse"><span class="collapse-toggler" data-toggle="collapse"><span class="brown">少光天</span></span><div class="collapse-body">
 │             │   └ <span class="brown">寿<em>二大劫</em></span></div></div>
-│             └─┬ <span class="darkgray">千<em>小世界</em></span> ──┬──┬── ...
-│               └ <span class="limegreen"><b>小世界</b></span>
+│             └─┬ <span class="darkgray">千<em>小世界</em></span>
+│               └ <span class="limegreen"><b>小世界</b></span> ──┬── ...
 │                 ├ <div class="collapse"><span class="collapse-toggler" data-toggle="collapse"><span class="limegreen">初禅</span></span><div class="collapse-body">
 │                 │ ├ <div class="collapse"><span class="collapse-toggler" data-toggle="collapse"><span class="limegreen">大梵天</span></span><div class="collapse-body">
 │                 │ │ └ <span class="limegreen">寿<em>六十小劫</em></span></div></div>
@@ -326,20 +326,20 @@ list_title: "佛典经籍："
 │     │ ├ 广果天
 │     │ ├ 福生天
 │     │ └ 无云天
-│     └─┬ <span class="darkgray">千<em>中千世界</em></span> ──┬──┬── ...
-│       └ <b>中千世界</b>
+│     └─┬ <span class="darkgray">千<em>中千世界</em></span>
+│       └ <b>中千世界</b> ──┬── ...
 │         ├ 三禅
 │         │ ├ 遍净天
 │         │ ├ 无量净天
 │         │ └ 少净天
-│         └─┬ <span class="darkgray">千<em>小千世界</em></span> ──┬──┬── ...
-│           └ <b>小千世界</b>
+│         └─┬ <span class="darkgray">千<em>小千世界</em></span>
+│           └ <b>小千世界</b> ──┬── ...
 │             ├ 二禅
 │             │ ├ 极光净天
 │             │ ├ 少量光天
 │             │ └ 少光天
-│             └─┬ <span class="darkgray">千<em>小世界</em></span> ──┬──┬── ...
-│               └ <b>小世界</b>
+│             └─┬ <span class="darkgray">千<em>小世界</em></span>
+│               └ <b>小世界</b> ──┬── ...
 │                 ├ 初禅
 │                 │ ├ 大梵天
 │                 │ ├ 梵辅天
