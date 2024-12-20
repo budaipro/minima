@@ -11,40 +11,40 @@ list_title: "佛典经籍："
 │ └ <span><b>大千世界</b></span>
 │   ├ 无色界
 │   └ 色界
-│     ├ 四禅
+│     ├ <div class="collapse"><span class="collapse-toggler" data-toggle="collapse">四禅</span><div class="collapse-body">
 │     │ ├ 净居天
 │     │ ├ 无想天
 │     │ ├ 广果天
 │     │ ├ 福生天
-│     │ └ 无云天
+│     │ └ 无云天</div></div>
 │     └─┬ <span class="darkgray">千<em>中千世界</em></span>
 │       └ <b>中千世界</b> ──┬── ...
-│         ├ 三禅
+│         ├ <div class="collapse"><span class="collapse-toggler" data-toggle="collapse">三禅</span><div class="collapse-body">
 │         │ ├ 遍净天
 │         │ ├ 无量净天
-│         │ └ 少净天
+│         │ └ 少净天</div></div>
 │         └─┬ <span class="darkgray">千<em>小千世界</em></span>
 │           └ <b>小千世界</b> ──┬── ...
-│             ├ 二禅
+│             ├ <div class="collapse"><span class="collapse-toggler" data-toggle="collapse">二禅</span><div class="collapse-body">
 │             │ ├ 极光净天
 │             │ ├ 少量光天
-│             │ └ 少光天
+│             │ └ 少光天</div></div>
 │             └─┬ <span class="darkgray">千<em>小世界</em></span>
 │               └ <b>小世界</b> ──┬── ...
-│                 ├ 初禅
+│                 ├ <div class="collapse"><span class="collapse-toggler" data-toggle="collapse">初禅</span><div class="collapse-body">
 │                 │ ├ 大梵天
 │                 │ ├ 梵辅天
-│                 │ └ 梵众天
+│                 │ └ 梵众天</div></div>
 │                 └ 欲界
-│                   ├ 空居天
+│                   ├ <div class="collapse"><span class="collapse-toggler" data-toggle="collapse">空居天</span><div class="collapse-body">
 │                   │ ├ 他化自在天
 │                   │ ├ 化乐天
 │                   │ ├ 兜率天
-│                   │ └ 夜摩天
-│                   ├ 须弥山
-│                   │ └ 地居天
+│                   │ └ 夜摩天</div></div>
+│                   ├ <div class="collapse"><span class="collapse-toggler" data-toggle="collapse">须弥山</span><div class="collapse-body">
+│                   │ └ <div class="collapse"><span class="collapse-toggler" data-toggle="collapse">地居天</span><div class="collapse-body">
 │                   │   ├ 忉利天
-│                   │   └ 四天王天
+│                   │   └ 四天王天</div></div></div></div>
 │                   ├ 日月宫
 │                   ├ 大海水
 │                   └ 四大洲
@@ -86,22 +86,22 @@ list_title: "佛典经籍："
 │     │   └ <span class="darkviolet">寿<em>一百二十五大劫</em></span></div></div></div></div>
 │     └─┬ <span class="darkgray">千<em>中千世界</em></span>
 │       └ <span class="dodgerblue"><b>中千世界</b></span> ──┬── ...
-│         ├ <span class="dodgerblue">三禅</span>
+│         ├ <div class="collapse"><span class="collapse-toggler" data-toggle="collapse"><span class="dodgerblue">三禅</span></span><div class="collapse-body">
 │         │ ├ <div class="collapse"><span class="collapse-toggler" data-toggle="collapse"><span class="dodgerblue">遍净天</span><em><b>（水灾止）</b></em></span><div class="collapse-body">
 │         │ │ └ <span class="dodgerblue">寿<em>六十四大劫</em></span></div></div>
 │         │ ├ <div class="collapse"><span class="collapse-toggler" data-toggle="collapse"><span class="dodgerblue">无量净天</span></span><div class="collapse-body">
 │         │ │ └ <span class="dodgerblue">寿<em>三十二大劫</em></span></div></div>
 │         │ └ <div class="collapse"><span class="collapse-toggler" data-toggle="collapse"><span class="dodgerblue">少净天</span></span><div class="collapse-body">
-│         │   └ <span class="dodgerblue">寿<em>十六大劫</em></span></div></div>
+│         │   └ <span class="dodgerblue">寿<em>十六大劫</em></span></div></div></div></div>
 │         └─┬ <span class="darkgray">千<em>小千世界</em></span>
 │           └ <span class="brown"><b>小千世界</b></span> ──┬── ...
-│             ├ <span class="brown">二禅</span>
+│             ├ <div class="collapse"><span class="collapse-toggler" data-toggle="collapse"><span class="brown">二禅</span></span><div class="collapse-body">
 │             │ ├ <div class="collapse"><span class="collapse-toggler" data-toggle="collapse"><span class="brown">极光净天</span><em><b>（火灾止）</b></em></span><div class="collapse-body">
 │             │ │ └ <span class="brown">寿<em>八大劫</em></span></div></div>
 │             │ ├ <div class="collapse"><span class="collapse-toggler" data-toggle="collapse"><span class="brown">少量光天</span></span><div class="collapse-body">
 │             │ │ └ <span class="brown">寿<em>四大劫</em></span></div></div>
 │             │ └ <div class="collapse"><span class="collapse-toggler" data-toggle="collapse"><span class="brown">少光天</span></span><div class="collapse-body">
-│             │   └ <span class="brown">寿<em>二大劫</em></span></div></div>
+│             │   └ <span class="brown">寿<em>二大劫</em></span></div></div></div></div>
 │             └─┬ <span class="darkgray">千<em>小世界</em></span>
 │               └ <span class="limegreen"><b>小世界</b></span> ──┬── ...
 │                 ├ <div class="collapse"><span class="collapse-toggler" data-toggle="collapse"><span class="limegreen">初禅</span></span><div class="collapse-body">
@@ -320,40 +320,40 @@ list_title: "佛典经籍："
 │ └ <span><b>大千世界</b></span>
 │   ├ 无色界
 │   └ 色界
-│     ├ 四禅
+│     ├ <div class="collapse"><span class="collapse-toggler" data-toggle="collapse">四禅</span><div class="collapse-body">
 │     │ ├ 净居天
 │     │ ├ 无想天
 │     │ ├ 广果天
 │     │ ├ 福生天
-│     │ └ 无云天
+│     │ └ 无云天</div></div>
 │     └─┬ <span class="darkgray">千<em>中千世界</em></span>
 │       └ <b>中千世界</b> ──┬── ...
-│         ├ 三禅
+│         ├ <div class="collapse"><span class="collapse-toggler" data-toggle="collapse">三禅</span><div class="collapse-body">
 │         │ ├ 遍净天
 │         │ ├ 无量净天
-│         │ └ 少净天
+│         │ └ 少净天</div></div>
 │         └─┬ <span class="darkgray">千<em>小千世界</em></span>
 │           └ <b>小千世界</b> ──┬── ...
-│             ├ 二禅
+│             ├ <div class="collapse"><span class="collapse-toggler" data-toggle="collapse">二禅</span><div class="collapse-body">
 │             │ ├ 极光净天
 │             │ ├ 少量光天
-│             │ └ 少光天
+│             │ └ 少光天</div></div>
 │             └─┬ <span class="darkgray">千<em>小世界</em></span>
 │               └ <b>小世界</b> ──┬── ...
-│                 ├ 初禅
+│                 ├ <div class="collapse"><span class="collapse-toggler" data-toggle="collapse">初禅</span><div class="collapse-body">
 │                 │ ├ 大梵天
 │                 │ ├ 梵辅天
-│                 │ └ 梵众天
+│                 │ └ 梵众天</div></div>
 │                 └ 欲界
-│                   ├ 空居天
+│                   ├ <div class="collapse"><span class="collapse-toggler" data-toggle="collapse">空居天</span><div class="collapse-body">
 │                   │ ├ 他化自在天
 │                   │ ├ 化乐天
 │                   │ ├ 兜率天
-│                   │ └ 夜摩天
-│                   ├ 须弥山
-│                   │ └ 地居天
+│                   │ └ 夜摩天</div></div>
+│                   ├ <div class="collapse"><span class="collapse-toggler" data-toggle="collapse">须弥山</span><div class="collapse-body">
+│                   │ └ <div class="collapse"><span class="collapse-toggler" data-toggle="collapse">地居天</span><div class="collapse-body">
 │                   │   ├ 忉利天
-│                   │   └ 四天王天
+│                   │   └ 四天王天</div></div></div></div>
 │                   ├ 日月宫
 │                   ├ 大海水
 │                   └ 四大洲
