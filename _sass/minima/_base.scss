@@ -172,6 +172,7 @@ em {
 mark {
   color: inherit;
   background-color: #8fbc8f85;
+  border-bottom: 1px solid rgba(0, 0, 0, .05);
   // text-emphasis: circle red;
   // text-emphasis-position: under;
 }
@@ -179,7 +180,8 @@ mark {
 i {
   // text-emphasis: circle blue;
   // text-emphasis-position: under;
-  background-color: bisque;
+  background-color: #ffe4c4b5;
+  border-bottom: 1px solid rgba(0, 0, 0, .05);
 }
 
 u {
