@@ -161,8 +161,8 @@ list_title: "佛典经籍："
 │                       │ │   ├ 人寿三百岁
 │                       │ │   ├ 人寿二百岁
 │                       │ │   ├ <div class="collapse"><span class="collapse-toggler" data-toggle="collapse">人寿一百岁</span><div class="collapse-body">
-│                       │ │   │ └ <em><b>周昭王二十四年</b></em>
-│                       │ │   │   └ <em><b>释迦牟尼佛</b></em>出世</div></div>
+│                       │ │   │ └ <em><b>释迦牟尼佛</b></em>出世
+│                       │ │   │   └ <em><b>周昭王二十四年</b></em></div></div>
 │                       │ │   ↓ ...
 │                       │ │   └ 人寿一十岁</div></div>
 │                       │ ├ <div class="collapse"><span class="collapse-toggler" data-toggle="collapse">第十小劫</span><div class="collapse-body">
@@ -305,10 +305,10 @@ list_title: "佛典经籍："
 │                                                                                                                                                                                                                               └ <span class="darkgray"><em>一百八代子孙相承</em></span>
 │                                                                                                                                                                                                                                 └ <div class="collapse"><span class="collapse-toggler" data-toggle="collapse">大茅草王（还名）</span><div class="collapse-body">
 │                                                                                                                                                                                                                                   └ <em><b>苷蔗王</b></em>
-│                                                                                                                                                                                                                                     └ <div class="collapse"><span class="collapse-toggler" data-toggle="collapse">尼拘罗<em><b>（立姓释迦）</b></em></span><div class="collapse-body">
-│                                                                                                                                                                                                                                       └ 拘卢
-│                                                                                                                                                                                                                                         └ 瞿拘卢
-│                                                                                                                                                                                                                                           └ <div class="collapse"><span class="collapse-toggler" data-toggle="collapse">师子颊</span><div class="collapse-body">
+│                                                                                                                                                                                                                                     └ <div class="collapse"><span class="collapse-toggler" data-toggle="collapse">尼拘罗王<em><b>（立姓释迦）</b></em></span><div class="collapse-body">
+│                                                                                                                                                                                                                                       └ 拘卢王
+│                                                                                                                                                                                                                                         └ 瞿拘卢王
+│                                                                                                                                                                                                                                           └ <div class="collapse"><span class="collapse-toggler" data-toggle="collapse">师子颊王</span><div class="collapse-body">
 │                                                                                                                                                                                                                                             ├ <b>净饭王</b>
 │                                                                                                                                                                                                                                             │ └ 悉达多<em><b>（释迦牟尼佛）</b></em>
 │                                                                                                                                                                                                                                             │   └ 罗睺罗
