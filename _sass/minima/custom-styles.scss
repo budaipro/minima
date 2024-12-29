@@ -18,11 +18,11 @@ pre {
 .collapse-toggler {
   cursor: pointer;
   color: black;
-  text-decoration: underline black dotted 1px;
-  // text-decoration-line: underline;
-  // text-decoration-color: black;
-  // text-decoration-style: dotted;
-  // text-decoration-thickness: 1px;
+  // text-decoration: underline black dotted 1px;
+  text-decoration-line: underline;
+  text-decoration-color: black;
+  text-decoration-style: dotted;
+  text-decoration-thickness: 1px;
   text-underline-offset: 0.125em;
 }
 
