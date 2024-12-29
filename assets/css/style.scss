@@ -72,37 +72,11 @@ body {
 /*
  * Layouts
  */
-.site-font-selectors {
-  display: none;
-  float: right;
-
-  .site-font-selector {
-    display: flex;
-    align-items: center;
-    cursor: pointer;
-    color: white;
-    font-size: 12px;
-    border-style: solid;
-    border-width: 0;
-    // border-color: white black black white;
-    background-color: transparent;
-
-    &.current {
-      font-weight: bold;
-      font-style: italic;
-      // border-color: black white white black;
-    }
-  }
-}
 
 
 /*
  * Media query
  */
 @media screen and (min-width: $on-large) {
-  .site-font-selectors {
-    display: flex;
-    margin-left: auto;
-  }
 }
 
