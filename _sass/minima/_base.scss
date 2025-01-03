@@ -154,9 +154,6 @@ blockquote {
   > :last-child {
     margin-bottom: 0;
   }
-
-  i, em {
-  }
 }
 
 
@@ -167,21 +164,22 @@ strong {
 }
 
 em {
+  font-style: normal;
 }
 
 mark {
   color: inherit;
   background-color: #8fbc8f85;
-  border-bottom: 1px solid rgba(0, 0, 0, .05);
+  // border-bottom: 1px solid rgba(0, 0, 0, .1);
   // text-emphasis: circle red;
   // text-emphasis-position: under;
 }
 
 i {
+  background-color: #ffe4c4b5;
   // text-emphasis: circle blue;
   // text-emphasis-position: under;
-  background-color: #ffe4c4b5;
-  border-bottom: 1px solid rgba(0, 0, 0, .05);
+  // border-bottom: 1px solid rgba(0, 0, 0, .1);
 }
 
 u {
