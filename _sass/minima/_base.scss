@@ -164,7 +164,7 @@ strong {
 }
 
 em {
-  font-style: normal;
+  // font-style: normal;
 }
 
 mark {
@@ -191,7 +191,7 @@ dfn, abbr {
   font-style: normal;
   border-bottom: 1px solid;
 
-  em & {
+  i & {
     font-style: italic;
   }
 }
