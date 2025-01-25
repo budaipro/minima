@@ -2,24 +2,9 @@ title: 悟文佛经学习群
 author:
   name: 悟文
   email: yuwen.song@outlook.com
-
-# The `>` after `description:` means to ignore line-breaks until next key.
-# If you want to omit the line-break after the end of text, use `>-` instead.
 description: >
   道不可不作，经不可不学！
-
-# Build settings
-# permalink: /sutras/:title:output_ext
-permalink: /sutras/:title
-
-# If you clone the Minima repo and build locally, use this setting.
-theme: minima
-
-# As of November 2023, GitHub Pages still uses Minima 2.5.1 (https://pages.github.com/versions/). 
-# If you want to use the latest Minima version on GitHub Pages, use the following setting and 
-# add a line comment on "theme: minima" above.
-#remote_theme: jekyll/minima
-
+permalink: /sutra/:title
 defaults:
   -
     scope:
@@ -27,27 +12,10 @@ defaults:
       type: "posts"
     values:
       layout: "post"
-
 plugins:
   - jekyll-feed
   - jekyll-seo-tag
-
-# Theme-specific settings
-
-# If you want to link only specific pages in your header, use this and add the path to the pages
-# in order as they should show up.
-# header_pages:
-#   - about.md
-
-# Set to `true` to show excerpts on the homepage.
 show_excerpts: false
-
-# Minima specific settings, which are only available from Minima 3.0 onward.
 minima:
   skin: classic
-  
-  # Minima date format.
-  # The default value is "%b %d, %Y" (e.g. Nov 14, 2023) 
-  # Refer to https://shopify.github.io/liquid/filters/date/ if you want to customize this.
   date_format: "%Y/%m/%d"
-

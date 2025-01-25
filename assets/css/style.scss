@@ -2,54 +2,226 @@
 # Only the main Sass file needs front matter (the dashes are enough)
 ---
 
-@import
-  "minima/skins/{{ site.minima.skin | default: 'classic' }}",
-  "minima/initialize";
+$base-font-size: 10.5pt;
+$small-font-size: 9.5pt;
+$base-font-family: "細明體", "宋体", -apple-system, system-ui, sans-serif;
 
 * {
   box-sizing: border-box;
 }
 
-body {
-  // font: 400 16px/1.175 "細明體", "新細明體", "新細明體-ExtB", "宋体", simsun, -apple-system, system-ui, BlinkMacSystemFont, Helvetica, Arial, sans-serif;
+html {
+  font-size: $base-font-size;
+  overscroll-behavior: none;
 }
 
-.site-header .wrapper {
-  display: flex;
-  align-items: center;
-  // justify-content: center; // 只有在切换字体的按钮显示时，才需要这条样式
-}
-
-
-/*
- * Stylings
+/**
+ * Reset some basic elements
  */
-.black {
+body, h1, h2, h3, h4, h5, h6,
+p, blockquote, pre, hr,
+dl, dd, ol, ul, figure {
+  padding: 0;
+  margin: 0;
+}
+
+/**
+ * Set `margin-bottom` to maintain vertical rhythm
+ */
+h1, h2, h3, h4, h5, h6,
+p, blockquote, pre,
+ul, ol, dl, figure,
+%vertical-rhythm {
+  margin-bottom: 15px;
+}
+
+/**
+ * Basic styling
+ */
+body {
   color: black;
+  font: normal #{$base-font-size}/125% $base-font-family;
+  letter-spacing: -.0225em;
 }
 
-.red {
-  color: red;
+a {
+  color: blue;
+  text-decoration: underline;
+  text-underline-offset: 0.175em;
+
+  &:visited, &:hover {
+    color: blue;
+  }
+
+  &:hover {
+    text-decoration: underline;
+  }
 }
 
-.peru {
-  color: peru;
+h1, h2, h3, h4, h5, h6 {
+  font-weight: bold;
+  line-height: 1;
+}
+
+h1 {
+  font-size: $base-font-size * 1.3725;
+}
+
+h2 {
+  font-size: $base-font-size * 1.2;
+}
+
+i {
+  background-color: #ffe4c4b5;
+}
+
+mark {
+  color: inherit;
+  background-color: #8fbc8f85;
+}
+
+dfn, abbr {
+}
+
+sub, sup {
+  font-size: $small-font-size;
+}
+
+ruby {
+  rt {
+    font-family: arial, sans-serif;
+    letter-spacing: 0;
+  }
+}
+
+blockquote {
+  color: black;
+  font-style: italic;
+  > :last-child {
+    margin-bottom: 0;
+  }
+}
+
+pre {
+  font-family: "dejavu sans mono", menlo, consolas, monospace, $base-font-family;
+  line-height: 118%;
+  white-space: pre;
+  width: 100%;
+  background-color: transparent;
+  border: none;
+  overflow-x: auto;
+}
+
+ul, ol {
+  margin-left: 15px;
+  list-style: square;
+}
+
+li {
+  > blockquote,
+  > ul,
+  > ol {
+    margin-bottom: 0;
+  }
+}
+
+.container {
+  width: 575px;
+  max-width: 100%;
+  padding-right: 10px;
+  padding-left: 10px;
+  @extend %clearfix;
+}
+
+%clearfix:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+.header {
+  color: white;
+  padding: 4px 0;
+  background: linear-gradient(90deg, navy, #1084d0);
+  .brand {
+    color: white!important;
+    font-weight: bold;
+    text-decoration: none!important;
+  }
+}
+
+.content {
+}
+
+.footer {
+  font-size: $small-font-size;
+}
+
+pre {
+}
+
+.collapse {
+  display: inline;
+}
+
+.collapse-toggler {
+  cursor: pointer;
+  color: black;
+  text-decoration: underline black dotted 1px;
+  -webkit-text-decoration: underline black dotted 1px;
+  text-decoration-line: underline;
+  text-decoration-color: black;
+  text-decoration-style: dotted;
+  text-decoration-thickness: 1px;
+  text-underline-offset: 0.125em;
+  -webkit-text-decoration-line: underline;
+  -webkit-text-decoration-color: black;
+  -webkit-text-decoration-style: dotted;
+  -webkit-text-decoration-thickness: 1px;
+  -webkit-text-underline-offset: 0.125em;
+}
+
+.collapse-toggler.active {
+  font-weight: bold;
+}
+
+.collapse-toggler + abbr {
+  font-size: 85%;
+}
+
+.collapse-body {
+  display: none;
+}
+
+.collapse-body.active {
+  display: inline;
+}
+
+.overview {
+  font-size: $small-font-size;
+  margin: 0;
+  overflow: visible;
+}
+
+.breadcrumb {
+  margin-top: 15px;
+  margin-bottom: 15px;
 }
 
 .blue {
   color: blue;
 }
 
-.gold {
-  color: gold;
-}
-
-.deeppink {
-  color: deeppink;
+.red {
+  color: red;
 }
 
 .brown {
   color: brown;
+}
+
+.limegreen {
+  color: limegreen;
 }
 
 .darkviolet {
@@ -59,24 +231,3 @@ body {
 .dodgerblue {
   color: dodgerblue;
 }
-
-.limegreen {
-  color: #2db42d;
-}
-
-.darkgray {
-  color: darkgray;
-}
-
-
-/*
- * Layouts
- */
-
-
-/*
- * Media query
- */
-@media screen and (min-width: $on-large) {
-}
-

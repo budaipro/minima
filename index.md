@@ -1,11 +1,14 @@
 ---
-layout: home
+layout: base
 list_title: "佛典经籍："
 ---
+{%- if page.title -%}
+  <h1 class="page-heading">{{ page.title }}</h1>
+{%- endif -%}
 
-<h2 style="font-size: 16.5px;">娑婆世界概览</h2>
+<h2 style="margin-top: 15px;">娑婆世界概览</h2>
 
-<pre style="margin: 0; overflow: visible; font-size: 12px;">
+<pre class="overview">
 ↓ ...
 ├ <div class="collapse"><span class="collapse-toggler" data-toggle="collapse">庄严劫</span><div class="collapse-body">
 │ └ <span><b>大千世界</b></span>
@@ -389,7 +392,7 @@ list_title: "佛典经籍："
   <div style="margin: 15px 0;">如《佛说海八德经》云：『<span style="font-style: italic;">（佛告沙门曰：）吾之经籍，义美甘露，仙圣所不闻，梵释所希睹；<strong>往古来今，无物不记，边中皆正</strong>，犹海通咸。亦以斯故，沙门<strong>乐</strong>之。夫<b><em><strong>见</strong>吾经</em>者，<em>意</em>皆趣<em>无为</em></b>矣。</span>』</div>
   <hr>
   {%- if page.list_title -%}
-  <h2 class="post-list-heading" style="margin-bottom: 5px;">{{ page.list_title }}</h2>
+  <h2 style="margin: 15px 0;">{{ page.list_title }}</h2>
   <div style="margin-bottom: 15px; font-style: italic;">（本站经书皆用繁体本，以简体注释。原文由悟文重新断句标点。）</div>
   {%- endif -%}
   <ul class="post-list">
