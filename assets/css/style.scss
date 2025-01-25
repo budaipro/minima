@@ -32,7 +32,7 @@ h1, h2, h3, h4, h5, h6,
 p, blockquote, pre,
 ul, ol, dl, figure,
 %vertical-rhythm {
-  margin-bottom: 15px;
+  margin-bottom: 10px;
 }
 
 /**
@@ -126,10 +126,11 @@ li {
 }
 
 .container {
-  width: 100%;
+  width: 680px;
   max-width: 100%;
   padding-right: 10px;
   padding-left: 10px;
+  margin: 0 auto;
   @extend %clearfix;
 }
 
@@ -141,10 +142,13 @@ li {
 
 .header {
   color: white;
-  padding: 4px 0;
+  padding: 10px 0;
+  margin-bottom: 10px;
   background: linear-gradient(90deg, navy, #1084d0);
   .brand {
     color: white!important;
+    font-size: $base-font-size * 1.275;
+    line-height: 1;
     font-weight: bold;
     text-decoration: none!important;
   }
@@ -154,6 +158,7 @@ li {
 }
 
 .footer {
+  text-align: center;
   // font-size: $small-font-size;
 }
 
@@ -204,8 +209,8 @@ pre {
 }
 
 .breadcrumb {
-  margin-top: 15px;
-  margin-bottom: 15px;
+  margin-top: 10px;
+  margin-bottom: 10px;
 }
 
 .author {
