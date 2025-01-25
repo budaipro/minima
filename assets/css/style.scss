@@ -114,7 +114,7 @@ pre {
 
 ul, ol {
   margin-left: 15px;
-  list-style: square;
+  list-style: disc;
 }
 
 li {
@@ -126,7 +126,7 @@ li {
 }
 
 .container {
-  width: 575px;
+  width: 550px;
   max-width: 100%;
   padding-right: 10px;
   padding-left: 10px;
@@ -154,7 +154,7 @@ li {
 }
 
 .footer {
-  font-size: $small-font-size;
+  // font-size: $small-font-size;
 }
 
 pre {
@@ -206,6 +206,10 @@ pre {
 .breadcrumb {
   margin-top: 15px;
   margin-bottom: 15px;
+}
+
+.author {
+  text-align: right;
 }
 
 .blue {
