@@ -13,13 +13,15 @@
 	
     <div class="header">
       <div class="container">
-        <a class="brand" href="{{ "/" | relative_url }}">{{ site.title | escape }}</a>
-        <em>（<strong>道</strong>不可不作，<strong>经</strong>不可不读!）</em>
+        <div><a class="brand" href="{{ "/" | relative_url }}">{{ site.title |
+            escape }}</a></div>
+        <div><em>（<strong>道</strong>不可不作，<strong>经</strong>不可不读!）</em></div>
       </div>
     </div>
 
     <div class="content">
-      <div class="container" style="background-color: white; border: 2px solid #ccc;">
+      <div class="container" style="background-color: white; border: 2px solid
+        #ccc;">
         {{ content }}
       </div>
     </div>
@@ -28,8 +30,14 @@
       <div class="container">
         <data href="{{ "/" | relative_url }}"></data>
         <div>
-          <em>联系电话：<span>(+86)15348720205</span></em><br>
-          <span class="cr">&copy;2025</span>
+          <div>
+            <a href="https://tripitaka.cbeta.org/mobile/index.php" target="_blank">CBETA汉文大藏经</a>
+            <a href="https://www.baus-ebs.org/fodict_online/" target="_blank">在线佛学辞典</a>
+            <a href="https://zi.tools/" target="_blank">字统网</a>
+            <a href="https://convert.tw/" target="_blank">繁简转换王</a>
+          </div>
+          <div>问题反馈：fazang.xyz@gmail.com</div>
+          <div>&copy;2025</div>
         </div>
       </div>
     </div>

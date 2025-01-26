@@ -1,6 +1,6 @@
 ---
 layout: base
-list_title: "佛典经籍："
+list_title: "法藏经籍："
 ---
 {%- if page.title -%}
   <h1 class="page-heading">{{ page.title }}</h1>
@@ -389,11 +389,11 @@ list_title: "佛典经籍："
 {% endif %}
 
 {%- if posts.size > 0 -%}
-  <div style="margin: 10px 0;">如《佛说海八德经》云：『<span style="font-style: italic;">（佛告沙门曰：）吾之经籍，义美甘露，仙圣所不闻，梵释所希睹；<strong>往古来今，无物不记，边中皆正</strong>，犹海通咸。亦以斯故，沙门<strong>乐</strong>之。夫<b><em><strong>见</strong>吾经</em>者，<em>意</em>皆趣<em>无为</em></b>矣。</span>』</div>
+  <div style="margin-bottom: 1em;">如《佛说海八德经》云：『<span style="font-style: italic;">（佛告沙门曰：）吾之经籍，义美甘露，仙圣所不闻，梵释所希睹；<strong>往古来今，无物不记，边中皆正</strong>，犹海通咸。亦以斯故，沙门<strong>乐</strong>之。夫<b><em><strong>见</strong>吾经</em>者，<em>意</em>皆趣<em>无为</em></b>矣。</span>』</div>
   <hr>
   {%- if page.list_title -%}
-  <h2 style="margin: 10px 0;">{{ page.list_title }}</h2>
-  <div style="margin-bottom: 10px; font-style: italic;">（本站经书皆用繁体本，以简体注释。原文由悟文重新断句标点。）</div>
+  <h2>{{ page.list_title }}</h2>
+  <div style="margin-bottom: 1em; font-style: italic;">（本站经籍皆用繁体本，以简体注释。原文由悟文重新断句标点。）</div>
   {%- endif -%}
   <ul class="post-list">
     {%- assign date_format = site.minima.date_format | default: "%b %-d, %Y" -%}
