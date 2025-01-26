@@ -393,7 +393,7 @@ list_title: "法藏经籍："
   <hr>
   {%- if page.list_title -%}
   <h2>{{ page.list_title }}</h2>
-  <div style="margin-bottom: 1em; font-style: italic;">（本站经籍皆用繁体本，以简体注释。原文由悟文重新断句标点。）</div>
+  <div style="margin-bottom: 1em; font-style: italic;">（本站经籍皆用繁体原本，以简体注释。原文由悟文重新断句标点。）</div>
   {%- endif -%}
   <ul class="post-list">
     {%- assign date_format = site.minima.date_format | default: "%b %-d, %Y" -%}

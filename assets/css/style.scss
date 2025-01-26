@@ -42,6 +42,7 @@ body {
   color: black;
   font: normal #{$base-font-size}/145% $base-font-family;
   background-color: #e6e6e6;
+  overscroll-behavior: none;
 }
 
 a {
@@ -81,6 +82,7 @@ mark {
 }
 
 dfn, abbr {
+  cursor: help;
   border-bottom: 1px dotted;
 }
 
@@ -147,9 +149,10 @@ li {
   .brand {
     color: black!important;
     font-size: $base-font-size * 1.275;
-    line-height: 1;
     font-weight: bold;
     text-decoration: none!important;
+    line-height: 1;
+    outline: none!important;
   }
 }
 
@@ -222,6 +225,10 @@ pre {
   color: blue;
 }
 
+.black {
+  color: black;
+}
+
 .red {
   color: red;
 }
@@ -231,7 +238,7 @@ pre {
 }
 
 .limegreen {
-  color: limegreen;
+  color: #2aaf2a;
 }
 
 .darkviolet {
