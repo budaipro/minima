@@ -1,10 +1,21 @@
 title: 悟文佛经学习群
+
 author:
   name: 悟文
   email: yuwen.song@outlook.com
+
 description: >
   道不可不作，经不可不学！
+
 permalink: /sutra/:title
+
+show_excerpts: false
+
+collections:
+  excerpts:
+    output: true
+    permalink: /excerpts/:name
+
 defaults:
   -
     scope:
@@ -12,10 +23,17 @@ defaults:
       type: "posts"
     values:
       layout: "post"
+  -
+    scope:
+      path: ""
+      type: "excerpts"
+    values:
+      layout: "excerpt"
+
 plugins:
   - jekyll-feed
   - jekyll-seo-tag
-show_excerpts: false
+
 minima:
   skin: classic
   date_format: "%Y/%m/%d"
