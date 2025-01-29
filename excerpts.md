@@ -8,7 +8,7 @@ title: 摘抄
   <strong>摘抄</strong>
 </div>
 
-<ul>
+<ul class="excerpts">
 {%- for excerpt in site.excerpts -%}
   <li><a href="{{ excerpt.url }}">{{ excerpt.title }}</a></li>
 {%- endfor -%}
