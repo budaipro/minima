@@ -390,30 +390,20 @@ layout: base
 {%- if posts.size > 0 -%}
   <div style="margin-bottom: 1em;">如《佛说海八德经》云：『<span style="font-style: italic;">（佛告沙门曰：）吾之经籍，义美甘露，仙圣所不闻，梵释所希睹；<strong>往古来今，无物不记，边中皆正</strong>，犹海通咸。亦以斯故，沙门<strong>乐</strong>之。夫<b><em><strong>见</strong>吾经</em>者，<em>意</em>皆趣<em>无为</em></b>矣。</span>』</div>
   <hr>
-  <h2>法藏经籍：</h2>
-  <div style="margin-bottom: 1em; font-style: italic;">本站经籍皆用繁体原本，原文由悟文重新断句标点。</div>
+  <h2>经籍：</h2>
+  <div style="margin-bottom: 1em; font-style: italic;">以下经籍皆采用CBETA汉文大藏经的<b>繁体本</b>。</div>
   <ul class="post-list">
-    {%- assign date_format = site.minima.date_format | default: "%b %-d, %Y" -%}
     {%- for post in posts -%}
     <li>
-      <span>
-        <a class="post-link" href="{{ post.url | relative_url }}">{{ post.title | escape }}</a>
-        <span class="post-meta post-tags">
-          {%- if post.tags -%}
-            {%- for tag in post.tags -%}
-              <span>{{ tag }}</span>
-            {%- endfor -%}
-          {%- endif -%}
+      <a style="margin-right: 5px;" href="{{ post.url | relative_url }}">{{ post.title | escape }}</a>
+      {%- if post.tags -%}
+        <span class="post-tags">
+          {%- for tag in post.tags -%}
+            <span>{{ tag }}</span>
+          {%- endfor -%}
         </span>
-        {%- comment -%}
-        <span class="post-meta">
-          <i>{{ post.date | date: date_format }}</i>
-        </span>
-        {%- endcomment -%}
-      </span>
-      {%- if site.show_excerpts -%}
-        {{ post.excerpt }}
       {%- endif -%}
+      {%- if site.show_excerpts -%}{{ post.excerpt }}{%- endif -%}
     </li>
     {%- endfor -%}
   </ul>
