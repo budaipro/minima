@@ -187,18 +187,21 @@ pre {
 .collapse-toggler {
   cursor: pointer;
   color: black;
+  border-bottom: 1px dotted;
+  /*
   text-decoration: underline black dotted 1px;
   -webkit-text-decoration: underline black dotted 1px;
   text-decoration-line: underline;
   text-decoration-color: black;
   text-decoration-style: dotted;
   text-decoration-thickness: 1px;
-  text-underline-offset: 0.125em;
+  // text-underline-offset: 0.125em;
   -webkit-text-decoration-line: underline;
   -webkit-text-decoration-color: black;
   -webkit-text-decoration-style: dotted;
   -webkit-text-decoration-thickness: 1px;
-  -webkit-text-underline-offset: 0.125em;
+  // -webkit-text-underline-offset: 0.125em;
+  */
 }
 
 .collapse-toggler.active {
