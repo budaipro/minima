@@ -145,10 +145,10 @@ li {
 
 .header {
   text-align: center;
-  padding: 10px 0;
+  padding: 12px 0 13px;
   margin-bottom: 10px;
   background-color: white;
-  box-shadow: 0 1px 0 rgba(0,0,0,0.175);
+  box-shadow: inset 0 -1px 0 rgba(0,0,0,0.2);
   .brand {
     color: black!important;
     font-size: $base-font-size * 1.275;
