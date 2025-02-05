@@ -2,8 +2,8 @@
 # Only the main Sass file needs front matter (the dashes are enough)
 ---
 
-$base-font-size: 14px;
-$small-font-size: 12px;
+$base-font-size: 15.4px;
+$small-font-size: 13.2px;
 $base-font-family: simsun, mingliu, -apple-system, system-ui, sans-serif;
 
 * {
@@ -40,7 +40,7 @@ ul, ol, dl, figure,
  */
 body {
   color: black;
-  font: normal #{$base-font-size}/120% $base-font-family;
+  font: normal #{$base-font-size}/125% $base-font-family;
   letter-spacing: -0.025em;
   background-color: #e6e6e6;
   overscroll-behavior: none;
@@ -129,7 +129,7 @@ li {
 }
 
 .container {
-  width: 530px;
+  width: 580px;
   max-width: 100%;
   padding-right: 10px;
   padding-left: 10px;
@@ -146,6 +146,9 @@ li {
 .header {
   text-align: center;
   padding: 10px 0;
+  margin-bottom: 10px;
+  background-color: white;
+  box-shadow: 0 1px 0 rgba(0,0,0,0.175);
   .brand {
     color: black!important;
     font-size: $base-font-size * 1.275;
@@ -158,6 +161,10 @@ li {
 
 .content {
   margin-bottom: 10px;
+  .container {
+    background-color: white;
+    border: 1px solid transparent;
+  }
 }
 
 .post-list {
@@ -217,9 +224,10 @@ pre {
 }
 
 .breadcrumb {
-  margin-top: 10px;
-  margin-bottom: 10px;
-  background-color: aquamarine;
+  font-style: italic;
+  padding: 2px 0;
+  margin: 10px 0;
+  // background-color: aquamarine;
 }
 
 .author {
