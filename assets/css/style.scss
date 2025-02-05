@@ -40,14 +40,15 @@ ul, ol, dl, figure,
  */
 body {
   color: black;
-  font: normal #{$base-font-size}/145% $base-font-family;
+  font: normal #{$base-font-size}/120% $base-font-family;
+  letter-spacing: -0.025em;
   background-color: #e6e6e6;
   overscroll-behavior: none;
 }
 
 a {
   color: blue;
-  text-decoration: underline;
+  text-decoration: none;
   text-underline-offset: 0.175em;
 
   &:visited, &:hover {
@@ -106,7 +107,7 @@ blockquote {
 
 pre {
   font-family: "dejavu sans mono", menlo, consolas, monospace, $base-font-family;
-  line-height: 118%;
+  line-height: 120%;
   white-space: pre;
   width: 100%;
   background-color: transparent;
@@ -156,6 +157,11 @@ li {
 }
 
 .content {
+  margin-bottom: 10px;
+}
+
+.post-list {
+  // list-style: inside decimal-leading-zero;
 }
 
 .footer {
