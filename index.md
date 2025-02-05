@@ -5,7 +5,7 @@ layout: base
   <h1 class="page-heading">{{ page.title }}</h1>
 {%- endif -%}
 
-<h2 style="margin-top: 10px;">娑婆世界概览</h2>
+<h2 style="margin-top: 10px;">此<em>娑婆世界</em>概览</h2>
 
 <pre class="overview">
 ↓ ...
@@ -388,9 +388,8 @@ layout: base
 {% endif %}
 
 {%- if posts.size > 0 -%}
-  <div style="margin-bottom: 1em;">如《佛说海八德经》云：『<span style="font-style: italic;">（佛告沙门曰：）吾之经籍，义美甘露，仙圣所不闻，梵释所希睹；<strong>往古来今，无物不记，边中皆正</strong>，犹海通咸。亦以斯故，沙门<strong>乐</strong>之。夫<b><em><strong>见</strong>吾经</em>者，<em>意</em>皆趣<em>无为</em></b>矣。</span>』</div>
-  <hr>
   <h2>经籍：</h2>
+  <div style="margin-bottom: 1em;">如《佛说海八德经》云：『<span style="font-style: italic;">（佛告沙门曰：）吾之经籍，义美甘露，仙圣所不闻，梵释所希睹；<strong>往古来今，无物不记，边中皆正</strong>，犹海通咸。亦以斯故，沙门<strong>乐</strong>之。夫<b><em><strong>见</strong>吾经</em>者，<em>意</em>皆趣<em>无为</em></b>矣。</span>』</div>
   <div style="margin-bottom: 1em; font-style: italic;">以下经籍皆采用CBETA汉文大藏经的<b>繁体本</b>。</div>
   <ul class="post-list">
     {%- for post in posts -%}
