@@ -406,7 +406,7 @@ layout: base
     </li>
     {%- endfor -%}
   </ul>
-  <div style="text-align: center; margin-bottom: 15px;"><em><a href="/excerpts">摘抄</a><small>（简体）</small></em></div>
+  <div style="text-align: center; margin-bottom: 6px;"><em><a href="/excerpts">摘抄</a><small>（简体）</small></em></div>
 
   {% if site.paginate %}
     <div class="pager">
