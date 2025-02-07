@@ -4,10 +4,9 @@
 
 // $base-font-size: 15.4px;
 // $small-font-size: 13.2px;
-$base-font-size: 20px;
-$small-font-size: 18px;
-$base-font-family: arial, "楷体", "標楷體", "宋体", "細明體", -apple-system, system-ui, sans-serif;
-// $base-font-family: "宋体", "細明體", -apple-system, system-ui, sans-serif;
+$base-font-size: 18.5px;
+$small-font-size: 16.5px;
+$base-font-family: "宋体", "細明體", -apple-system, system-ui, sans-serif;
 
 * {
   box-sizing: border-box;
@@ -43,8 +42,8 @@ ul, ol, dl, figure,
  */
 body {
   color: black;
-  font: normal #{$base-font-size}/128% $base-font-family;
-  letter-spacing: -0.0275em;
+  font: normal #{$base-font-size}/130% $base-font-family;
+  letter-spacing: -0.025em;
   background-color: #e6e6e6;
   overscroll-behavior: none;
 }
@@ -69,11 +68,11 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 h1 {
-  font-size: $base-font-size * 1.3575;
+  font-size: $base-font-size * 1.325;
 }
 
 h2 {
-  font-size: $base-font-size * 1.175;
+  font-size: $base-font-size * 1.135;
 }
 
 i {
@@ -133,7 +132,7 @@ li {
 }
 
 .container {
-  width: 630px;
+  width: 585px;
   max-width: 100%;
   padding-right: 10px;
   padding-left: 10px;
@@ -155,7 +154,7 @@ li {
   box-shadow: inset 0 -1px 0 rgba(0,0,0,0.2);
   .brand {
     color: black!important;
-    font-size: $base-font-size * 1.275;
+    font-size: $base-font-size * 1.235;
     font-weight: bold;
     text-decoration: none!important;
     line-height: 1;
@@ -192,20 +191,6 @@ pre {
   cursor: pointer;
   color: black;
   border-bottom: 1px dotted;
-  /*
-  text-decoration: underline black dotted 1px;
-  -webkit-text-decoration: underline black dotted 1px;
-  text-decoration-line: underline;
-  text-decoration-color: black;
-  text-decoration-style: dotted;
-  text-decoration-thickness: 1px;
-  // text-underline-offset: 0.125em;
-  -webkit-text-decoration-line: underline;
-  -webkit-text-decoration-color: black;
-  -webkit-text-decoration-style: dotted;
-  -webkit-text-decoration-thickness: 1px;
-  // -webkit-text-underline-offset: 0.125em;
-  */
 }
 
 .collapse-toggler.active {
@@ -234,7 +219,6 @@ pre {
   font-style: italic;
   padding: 2px 0;
   margin: 6px 0;
-  // background-color: aquamarine;
 }
 
 .subtitle {
@@ -282,30 +266,4 @@ pre {
 .excerpts {
   margin-left: 15px;
   list-style: disc;
-}
-
-@media only screen and (max-width: 600px) {
-  body {
-    font-size: $base-font-size - 4;
-  }
-
-  h1 {
-    font-size: ($base-font-size - 4) * 1.3575;
-  }
-
-  h2 {
-    font-size: ($base-font-size - 4) * 1.175;
-  }
-
-  sub, sup {
-    font-size: $small-font-size - 4;
-  }
-
-  .header .brand {
-    font-size: ($base-font-size - 4) * 1.275;
-  }
-
-  .footer, .overview, .subtitle {
-    font-size: $small-font-size - 4;
-  }
 }
