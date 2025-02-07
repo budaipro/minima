@@ -6,7 +6,7 @@
 // $small-font-size: 13.2px;
 $base-font-size: 20px;
 $small-font-size: 18px;
-$base-font-family: arial, "楷体", "標楷體", -apple-system, system-ui, sans-serif;
+$base-font-family: arial, "楷体", "標楷體", "宋体", "細明體", -apple-system, system-ui, sans-serif;
 // $base-font-family: "宋体", "細明體", -apple-system, system-ui, sans-serif;
 
 * {
@@ -44,7 +44,7 @@ ul, ol, dl, figure,
 body {
   color: black;
   font: normal #{$base-font-size}/128% $base-font-family;
-  letter-spacing: -0.0375em;
+  letter-spacing: -0.0275em;
   background-color: #e6e6e6;
   overscroll-behavior: none;
 }
