@@ -191,10 +191,16 @@ pre {
   cursor: pointer;
   color: black;
   border-bottom: 1px dotted;
+  .arrow:before {
+    content: "←";
+  }
 }
 
 .collapse-toggler.active {
   font-weight: bold;
+  .arrow:before {
+    content: "↓";
+  }
 }
 
 .collapse-toggler + abbr {

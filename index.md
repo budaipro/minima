@@ -54,7 +54,7 @@ layout: base
 │                     ├ 瞿耶尼（西）
 │                     ├ 郁单越（北）
 │                     └ 阎浮提（南）</div></div>
-├ <div class="collapse"><span class="collapse-toggler active" data-toggle="collapse"><em><strong>贤劫 ←</strong></em></span><div class="collapse-body active">
+├ <div class="collapse"><span class="collapse-toggler blue" data-toggle="collapse"><em><strong>贤劫 <span class="arrow"></span></strong></em></span><div class="collapse-body">
 │ └ <span class="darkgray"><b>大千世界</b></span>
 │   ├ <div class="collapse"><span class="collapse-toggler" data-toggle="collapse"><span class="darkviolet">无色界</span></span><div class="collapse-body">
 │   │ ├ <div class="collapse"><span class="collapse-toggler" data-toggle="collapse"><span class="darkviolet">非想非非想天</span></span><div class="collapse-body">
