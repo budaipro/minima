@@ -283,3 +283,29 @@ pre {
   margin-left: 15px;
   list-style: disc;
 }
+
+@media only screen and (max-width: 600px) {
+  body {
+    font-size: $base-font-size - 4;
+  }
+
+  h1 {
+    font-size: ($base-font-size - 4) * 1.3575;
+  }
+
+  h2 {
+    font-size: ($base-font-size - 4) * 1.175;
+  }
+
+  sub, sup {
+    font-size: $small-font-size - 4;
+  }
+
+  .header .brand {
+    font-size: ($base-font-size - 4) * 1.275;
+  }
+
+  .footer, .overview, .subtitle {
+    font-size: $small-font-size - 4;
+  }
+}
