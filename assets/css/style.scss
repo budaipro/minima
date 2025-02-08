@@ -2,11 +2,11 @@
 # Only the main Sass file needs front matter (the dashes are enough)
 ---
 
-// $base-font-size: 15.4px;
-// $small-font-size: 13.2px;
-$base-font-size: 18.5px;
-$small-font-size: 16.5px;
-$base-font-family: "宋体", "細明體", -apple-system, system-ui, sans-serif;
+$base-font-size: 14.5px;
+$small-font-size: 13.5px;
+// $base-font-size: 18.5px;
+// $small-font-size: 16.5px;
+$base-font-family: "細明體", "宋体", -apple-system, system-ui, sans-serif;
 
 * {
   box-sizing: border-box;
@@ -42,7 +42,7 @@ ul, ol, dl, figure,
  */
 body {
   color: black;
-  font: normal #{$base-font-size}/130% $base-font-family;
+  font: normal #{$base-font-size}/125% $base-font-family;
   letter-spacing: -0.025em;
   background-color: #e6e6e6;
   overscroll-behavior: none;
@@ -50,8 +50,7 @@ body {
 
 a {
   color: blue;
-  text-decoration: none;
-  text-underline-offset: 0.175em;
+  text-decoration: underline;
 
   &:visited, &:hover {
     color: blue;
@@ -110,7 +109,7 @@ blockquote {
 
 pre {
   font-family: "dejavu sans mono", menlo, consolas, monospace, $base-font-family;
-  line-height: 120%;
+  line-height: 125%;
   white-space: pre;
   width: 100%;
   background-color: transparent;
@@ -132,7 +131,7 @@ li {
 }
 
 .container {
-  width: 585px;
+  width: 530px;
   max-width: 100%;
   padding-right: 10px;
   padding-left: 10px;
@@ -216,7 +215,7 @@ pre {
 }
 
 .overview {
-  font-size: $small-font-size;
+  font-size: $base-font-size;
   overflow: visible;
   background-color: aliceblue;
 }
