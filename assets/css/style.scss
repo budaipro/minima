@@ -6,7 +6,7 @@ $base-font-size: 14.5px;
 $small-font-size: 13.5px;
 // $base-font-size: 18.5px;
 // $small-font-size: 16.5px;
-$base-font-family: "細明體", "宋体", -apple-system, system-ui, sans-serif;
+$base-font-family: "宋体", "細明體", -apple-system, system-ui, sans-serif;
 
 * {
   box-sizing: border-box;
@@ -42,7 +42,7 @@ ul, ol, dl, figure,
  */
 body {
   color: black;
-  font: normal #{$base-font-size}/125% $base-font-family;
+  font: normal #{$base-font-size}/120% $base-font-family;
   letter-spacing: -0.025em;
   background-color: #e6e6e6;
   overscroll-behavior: none;
@@ -109,7 +109,7 @@ blockquote {
 
 pre {
   font-family: "dejavu sans mono", menlo, consolas, monospace, $base-font-family;
-  line-height: 125%;
+  line-height: 120%;
   white-space: pre;
   width: 100%;
   background-color: transparent;
