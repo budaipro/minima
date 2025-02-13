@@ -189,7 +189,7 @@ pre {
 .collapse-toggler {
   cursor: pointer;
   color: black;
-  border-bottom: 1px dotted;
+  text-decoration: underline;
   .arrow:before {
     content: "←";
   }
